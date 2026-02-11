@@ -46,7 +46,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-6 text-lg md:text-xl text-warmwhite/80"
         >
-          Dry craft cider from Ghent, Belgium.
+          Best cider in the world. Period.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

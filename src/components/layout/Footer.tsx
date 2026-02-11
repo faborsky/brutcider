@@ -21,7 +21,7 @@ export default function Footer() {
               height={36}
             />
             <p className="mt-4 text-softgrey text-sm max-w-xs">
-              Dry craft cider from Ghent, Belgium. Nothing added. Nothing to hide.
+              Best cider in the world. Period. Nothing added. Nothing to hide.
             </p>
           </div>
 
