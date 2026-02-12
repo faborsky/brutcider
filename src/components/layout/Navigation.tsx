@@ -16,12 +16,24 @@ const navLinks = [
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [demoNoticeVisible, setDemoNoticeVisible] = useState(true);
   const pathname = usePathname();
   const isHome = pathname === "/";
 
   // On non-home pages, always use dark (black) variant
   // On home, start light (white) over the dark hero, switch to dark on scroll
   const useDark = !isHome || scrolled;
+
+  useEffect(() => {
+    // Check if demo notice is dismissed
+    const dismissed = localStorage.getItem("demo-notice-dismissed");
+    setDemoNoticeVisible(!dismissed);
+
+    // Listen for demo notice dismissal
+    const handleDismiss = () => setDemoNoticeVisible(false);
+    window.addEventListener("demo-notice-dismissed", handleDismiss);
+    return () => window.removeEventListener("demo-notice-dismissed", handleDismiss);
+  }, []);
 
   useEffect(() => {
     function handleScroll() {
@@ -34,9 +46,10 @@ export default function Navigation() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-40 transition-colors duration-200 ${
+        className={`fixed left-0 right-0 z-40 transition-all duration-200 ${
           useDark ? "bg-warmwhite" : "bg-transparent"
         }`}
+        style={{ top: demoNoticeVisible ? "48px" : "0" }}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
           <Link href="/">

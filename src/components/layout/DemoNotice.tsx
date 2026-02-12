@@ -31,6 +31,8 @@ export default function DemoNotice() {
   function handleDismiss() {
     localStorage.setItem("demo-notice-dismissed", "true");
     setVisible(false);
+    // Dispatch event to notify other components
+    window.dispatchEvent(new Event("demo-notice-dismissed"));
   }
 
   return (
