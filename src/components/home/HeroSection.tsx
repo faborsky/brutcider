@@ -20,7 +20,7 @@ export default function HeroSection() {
     >
       <motion.div className="absolute inset-0" style={{ y }}>
         <Image
-          src="/images/hero/hero01.png"
+          src="/images/hero/hero01.webp"
           alt="BRUT. craft cider cans on ice"
           fill
           priority

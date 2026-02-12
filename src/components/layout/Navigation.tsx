@@ -43,8 +43,8 @@ export default function Navigation() {
             <Image
               src={
                 useDark
-                  ? "/images/logo/brut_black_no_backround.png"
-                  : "/images/logo/brut_white_no_backround.png"
+                  ? "/images/logo/brut_black_no_backround.webp"
+                  : "/images/logo/brut_white_no_backround.webp"
               }
               alt="BRUT."
               width={100}

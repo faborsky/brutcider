@@ -34,7 +34,7 @@ export default function AgeGate() {
           className="fixed inset-0 z-[100] bg-offblack flex flex-col items-center justify-center px-6"
         >
           <Image
-            src="/images/logo/brut_white_no_backround.png"
+            src="/images/logo/brut_white_no_backround.webp"
             alt="BRUT."
             width={160}
             height={60}

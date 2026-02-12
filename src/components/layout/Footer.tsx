@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-12">
           <div>
             <Image
-              src="/images/logo/brut_white_no_backround.png"
+              src="/images/logo/brut_white_no_backround.webp"
               alt="BRUT."
               width={100}
               height={36}
