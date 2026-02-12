@@ -46,7 +46,7 @@ export default function Navigation() {
                   ? "/images/logo/brut_black_no_backround.webp"
                   : "/images/logo/brut_white_no_backround.webp"
               }
-              alt="BRUT."
+              alt="BRUT Dry Craft Cider Logo"
               width={100}
               height={36}
               priority

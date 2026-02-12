@@ -15,7 +15,7 @@ export default function ProductHero({ product }: ProductHeroProps) {
         <div className="relative aspect-square">
           <Image
             src={product.images.lifestyle}
-            alt={`${product.fullName} lifestyle`}
+            alt={`${product.fullName} dry craft cider lifestyle photo`}
             fill
             priority
             className="object-cover"
@@ -34,7 +34,7 @@ export default function ProductHero({ product }: ProductHeroProps) {
           >
             <Image
               src={product.images.transparent}
-              alt={product.fullName}
+              alt={`${product.fullName} - ${product.tagline} - Dry cider from Belgium`}
               fill
               className="object-contain"
             />

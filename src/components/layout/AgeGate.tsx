@@ -35,7 +35,7 @@ export default function AgeGate() {
         >
           <Image
             src="/images/logo/brut_white_no_backround.webp"
-            alt="BRUT."
+            alt="BRUT Craft Cider Logo"
             width={160}
             height={60}
             className="mb-16"

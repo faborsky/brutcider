@@ -16,7 +16,7 @@ export default function Footer() {
           <div>
             <Image
               src="/images/logo/brut_white_no_backround.webp"
-              alt="BRUT."
+              alt="BRUT Dry Craft Cider from Ghent Belgium"
               width={100}
               height={36}
             />
@@ -45,6 +45,11 @@ export default function Footer() {
             </p>
             <p className="mt-1 text-xs">
               Enjoy responsibly. 18+ only.
+            </p>
+            <p className="mt-4 text-xs border-t border-softgrey/20 pt-4">
+              <strong>Demo Project:</strong> This website is a demonstration
+              project created for educational and portfolio purposes. BRUT. is
+              not a real company or product.
             </p>
           </div>
         </div>

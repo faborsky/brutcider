@@ -31,7 +31,7 @@ export default function LifestyleGallery({ product }: LifestyleGalleryProps) {
               <div className="relative aspect-video overflow-hidden">
                 <Image
                   src={img}
-                  alt={`${product.fullName} lifestyle ${i + 1}`}
+                  alt={`${product.fullName} dry craft cider in lifestyle setting`}
                   fill
                   className="object-cover"
                 />

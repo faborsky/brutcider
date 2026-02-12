@@ -23,7 +23,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         >
           <Image
             src={product.images.transparent}
-            alt={product.fullName}
+            alt={`${product.fullName} - ${product.tagline} - Dry craft cider can`}
             fill
             className="object-contain"
           />

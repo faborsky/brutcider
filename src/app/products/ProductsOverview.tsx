@@ -40,7 +40,7 @@ export default function ProductsOverview() {
                   >
                     <Image
                       src={product.images.transparent}
-                      alt={product.fullName}
+                      alt={`${product.fullName} - ${product.tagline} - Belgian dry craft cider`}
                       fill
                       className="object-contain"
                     />

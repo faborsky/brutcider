@@ -3,6 +3,7 @@ import "./globals.css";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AgeGate from "@/components/layout/AgeGate";
+import DemoNotice from "@/components/layout/DemoNotice";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.brutcider.com"),
@@ -62,9 +63,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // Add these when you have them
-    // google: "your-google-verification-code",
-    // yandex: "your-yandex-verification-code",
+    google: "ukhqn5xYBB78omBf1GeoQrLB-7G5yhRF2n1xOH4JueY",
   },
 };
 
@@ -77,6 +76,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <AgeGate />
+        <DemoNotice />
         <Navigation />
         <main>{children}</main>
         <Footer />
