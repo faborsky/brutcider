@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -54,6 +55,10 @@ export default function Footer() {
               <strong>{t("demoLabel")}</strong> {t("demoText")}
             </p>
           </div>
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-softgrey/20">
+          <LanguageSwitcher dark={false} layout="row" />
         </div>
       </div>
     </footer>
