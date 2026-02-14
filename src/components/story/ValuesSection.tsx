@@ -1,39 +1,26 @@
 "use client";
 
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 import { staggerContainer, fadeInUp } from "@/lib/animations";
 import SectionHeading from "@/components/ui/SectionHeading";
 
-const values = [
-  {
-    title: "Dry or nothing",
-    description:
-      "We ferment everything completely. Zero residual sugar. If you want sweet, we're not your brand. And that's fine.",
-  },
-  {
-    title: "Four ingredients",
-    description:
-      "Apples, water, yeast, and whatever post-fermentation addition defines each variant. That's the list. We could make it shorter, but then we'd have apple juice.",
-  },
-  {
-    title: "Design matters",
-    description:
-      "The branding is as minimal as the product. No craft-beverage clichés. No burlap. No hand-drawn anything. We look the way we taste — stripped back.",
-  },
-  {
-    title: "Local first",
-    description:
-      "Flemish apples from small orchards. The kind Google Maps doesn't know about. We source local because local is better, not because it's a marketing angle.",
-  },
-];
+const valueKeys = [1, 2, 3, 4] as const;
 
 export default function ValuesSection() {
+  const t = useTranslations("OurStoryPage");
+
+  const values = valueKeys.map((n) => ({
+    title: t(`value${n}Title`),
+    description: t(`value${n}Text`),
+  }));
+
   return (
     <section className="py-20 md:py-32 px-6">
       <div className="max-w-7xl mx-auto">
         <SectionHeading
-          title="What we believe"
-          subtitle="Not a manifesto. Just how we work."
+          title={t("valuesTitle")}
+          subtitle={t("valuesSubtitle")}
         />
 
         <motion.div

@@ -1,9 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import Image from "next/image";
 
 export default function FoundersSection() {
+  const t = useTranslations("OurStoryPage");
+  const headingParts = t("heading").split("\n");
+
   return (
     <section className="pt-32 pb-20 md:pb-32 px-6">
       <div className="max-w-7xl mx-auto">
@@ -12,7 +16,7 @@ export default function FoundersSection() {
             <div className="relative aspect-[3/4] overflow-hidden">
               <Image
                 src="/images/founders/founders.webp"
-                alt="Roos, Sander, and Wout — founders of BRUT."
+                alt={t("foundersImageAlt")}
                 fill
                 className="object-cover"
                 priority
@@ -23,31 +27,27 @@ export default function FoundersSection() {
           <div>
             <AnimatedSection>
               <p className="text-softgrey text-sm uppercase tracking-wider font-medium mb-6">
-                Our Story
+                {t("label")}
               </p>
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-8">
-                Three friends.
-                <br />
-                One garage.
-                <br />
-                Zero experience.
+                {headingParts.map((part, i) => (
+                  <span key={i}>
+                    {i > 0 && <br />}
+                    {part}
+                  </span>
+                ))}
               </h1>
             </AnimatedSection>
 
             <AnimatedSection delay={0.1}>
               <p className="text-lg text-softgrey leading-relaxed mb-6">
-                Started by Roos, Sander, and Wout in a garage in Ghent. Background
-                in design and hospitality, zero experience in brewing. They wanted a
-                drink that fits their life — clean, no sugar, no bullshit.
+                {t("foundersParagraph1")}
               </p>
             </AnimatedSection>
 
             <AnimatedSection delay={0.2}>
               <p className="text-lg text-softgrey leading-relaxed">
-                Belgium has great beer culture, but they saw a gap: no one was making
-                cider that looked and tasted like it belongs in 2026. They source
-                apples from small Flemish orchards, ferment everything dry, and keep
-                the ingredient list embarrassingly short.
+                {t("foundersParagraph2")}
               </p>
             </AnimatedSection>
           </div>

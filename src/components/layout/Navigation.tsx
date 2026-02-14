@@ -1,35 +1,33 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { usePathname } from "next/navigation";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 import Image from "next/image";
 import MobileMenu from "./MobileMenu";
-
-const navLinks = [
-  { href: "/products", label: "Products" },
-  { href: "/our-story", label: "Our Story" },
-  { href: "/find-us", label: "Find Us" },
-  { href: "/contact", label: "Contact" },
-];
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [demoNoticeVisible, setDemoNoticeVisible] = useState(true);
   const pathname = usePathname();
+  const t = useTranslations("Navigation");
   const isHome = pathname === "/";
 
-  // On non-home pages, always use dark (black) variant
-  // On home, start light (white) over the dark hero, switch to dark on scroll
+  const navLinks = [
+    { href: "/products" as const, label: t("products") },
+    { href: "/our-story" as const, label: t("ourStory") },
+    { href: "/find-us" as const, label: t("findUs") },
+    { href: "/contact" as const, label: t("contact") },
+  ];
+
   const useDark = !isHome || scrolled;
 
   useEffect(() => {
-    // Check if demo notice is dismissed
     const dismissed = localStorage.getItem("demo-notice-dismissed");
     setDemoNoticeVisible(!dismissed);
 
-    // Listen for demo notice dismissal
     const handleDismiss = () => setDemoNoticeVisible(false);
     window.addEventListener("demo-notice-dismissed", handleDismiss);
     return () => window.removeEventListener("demo-notice-dismissed", handleDismiss);
@@ -59,7 +57,7 @@ export default function Navigation() {
                   ? "/images/logo/brut_black_no_backround.webp"
                   : "/images/logo/brut_white_no_backround.webp"
               }
-              alt="BRUT Dry Craft Cider Logo"
+              alt={t("logoAlt")}
               width={100}
               height={36}
               priority
@@ -78,6 +76,7 @@ export default function Navigation() {
                 {link.label}
               </Link>
             ))}
+            <LanguageSwitcher dark={useDark} />
           </nav>
 
           <button
@@ -85,7 +84,7 @@ export default function Navigation() {
             className={`md:hidden text-2xl ${
               useDark ? "text-offblack" : "text-warmwhite"
             }`}
-            aria-label="Open menu"
+            aria-label={t("openMenu")}
           >
             <svg
               width="28"

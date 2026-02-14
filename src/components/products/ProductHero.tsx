@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import type { Product } from "@/data/products";
 
@@ -9,13 +10,16 @@ interface ProductHeroProps {
 }
 
 export default function ProductHero({ product }: ProductHeroProps) {
+  const t = useTranslations("Products");
+  const td = useTranslations("ProductDetail");
+
   return (
     <section className="pt-20">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="relative aspect-square">
           <Image
             src={product.images.lifestyle}
-            alt={`${product.fullName} dry craft cider lifestyle photo`}
+            alt={td("lifestyleAlt", { name: t(`${product.slug}.fullName`) })}
             fill
             priority
             className="object-cover"
@@ -34,7 +38,10 @@ export default function ProductHero({ product }: ProductHeroProps) {
           >
             <Image
               src={product.images.transparent}
-              alt={`${product.fullName} - ${product.tagline} - Dry cider from Belgium`}
+              alt={td("productAlt", {
+                name: t(`${product.slug}.fullName`),
+                tagline: t(`${product.slug}.tagline`),
+              })}
               fill
               className="object-contain"
             />

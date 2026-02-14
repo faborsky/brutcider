@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import Divider from "@/components/ui/Divider";
 import type { Product } from "@/data/products";
@@ -9,11 +10,15 @@ interface ProductCopyBlockProps {
 }
 
 export default function ProductCopyBlock({ product }: ProductCopyBlockProps) {
+  const t = useTranslations("Products");
+  const td = useTranslations("ProductDetail");
+  const slug = product.slug;
+
   const blocks = [
-    { heading: "What it is", text: product.copyBlocks.whatItIs },
-    { heading: "Why dry matters", text: product.copyBlocks.whyItMatters },
-    { heading: "How we make it", text: product.copyBlocks.howWeMakeIt },
-    { heading: "Who it's for", text: product.copyBlocks.whoItsFor },
+    { heading: td("copyWhatItIs"), text: t(`${slug}.copyBlocks.whatItIs`) },
+    { heading: td("copyWhyDry"), text: t(`${slug}.copyBlocks.whyItMatters`) },
+    { heading: td("copyHowWeMake"), text: t(`${slug}.copyBlocks.howWeMakeIt`) },
+    { heading: td("copyWhoItsFor"), text: t(`${slug}.copyBlocks.whoItsFor`) },
   ];
 
   return (

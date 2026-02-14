@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 import { staggerContainer, fadeInUp } from "@/lib/animations";
 import Image from "next/image";
 import type { Product } from "@/data/products";
@@ -10,6 +11,9 @@ interface LifestyleGalleryProps {
 }
 
 export default function LifestyleGallery({ product }: LifestyleGalleryProps) {
+  const t = useTranslations("Products");
+  const td = useTranslations("ProductDetail");
+
   if (product.images.gallery.length === 0) return null;
 
   return (
@@ -31,7 +35,7 @@ export default function LifestyleGallery({ product }: LifestyleGalleryProps) {
               <div className="relative aspect-video overflow-hidden">
                 <Image
                   src={img}
-                  alt={`${product.fullName} dry craft cider in lifestyle setting`}
+                  alt={td("galleryAlt", { name: t(`${product.slug}.fullName`) })}
                   fill
                   className="object-cover"
                 />

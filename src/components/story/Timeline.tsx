@@ -1,37 +1,21 @@
 "use client";
 
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 import { staggerContainer, fadeInUp } from "@/lib/animations";
 import Divider from "@/components/ui/Divider";
 
-const milestones = [
-  {
-    year: "2023",
-    title: "The garage",
-    description:
-      "First batch brewed in a rented garage in Ghent. Three friends, one press, no clue what they were doing. The cider was dry. Everything else was chaos.",
-  },
-  {
-    year: "2024",
-    title: "First bars",
-    description:
-      "Local bars and festivals across Ghent. People started asking for 'the dry one.' We took that as a compliment.",
-  },
-  {
-    year: "2025",
-    title: "Four ciders",
-    description:
-      "Launched Haze, Cassis, and Ginger alongside Original. Expanded across Belgium. Still no sugar. Still no shortcuts.",
-  },
-  {
-    year: "2026",
-    title: "Beyond Belgium",
-    description:
-      "Benelux-wide distribution. Launching into Germany and France. Same four ingredients. Bigger map.",
-  },
-];
+const years = ["2023", "2024", "2025", "2026"] as const;
 
 export default function Timeline() {
+  const t = useTranslations("OurStoryPage");
+
+  const milestones = years.map((year) => ({
+    year,
+    title: t(`timeline${year}Title`),
+    description: t(`timeline${year}Text`),
+  }));
+
   return (
     <section className="py-20 md:py-32 px-6 bg-offblack">
       <div className="max-w-4xl mx-auto">

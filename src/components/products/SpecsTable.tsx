@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import Divider from "@/components/ui/Divider";
 import type { Product } from "@/data/products";
@@ -9,14 +10,18 @@ interface SpecsTableProps {
 }
 
 export default function SpecsTable({ product }: SpecsTableProps) {
+  const t = useTranslations("Products");
+  const td = useTranslations("ProductDetail");
+  const slug = product.slug;
+
   const specs = [
-    { label: "ABV", value: product.abv },
-    { label: "Sweetness", value: product.sweetness },
-    { label: "Carbonation", value: product.carbonation },
-    { label: "Body", value: product.body },
-    { label: "Character", value: product.character },
-    { label: "Best for", value: product.bestFor },
-    { label: "Format", value: "330ml slim can" },
+    { label: td("specAbv"), value: product.abv },
+    { label: td("specSweetness"), value: t(`${slug}.sweetness`) },
+    { label: td("specCarbonation"), value: t(`${slug}.carbonation`) },
+    { label: td("specBody"), value: t(`${slug}.body`) },
+    { label: td("specCharacter"), value: t(`${slug}.character`) },
+    { label: td("specBestFor"), value: t(`${slug}.bestFor`) },
+    { label: td("specFormat"), value: td("formatValue") },
   ];
 
   return (
@@ -24,10 +29,10 @@ export default function SpecsTable({ product }: SpecsTableProps) {
       <div className="max-w-4xl mx-auto">
         <AnimatedSection>
           <p className="text-softgrey text-sm uppercase tracking-wider font-medium mb-6">
-            Specs
+            {td("specsLabel")}
           </p>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-warmwhite mb-12">
-            The details
+            {td("specsTitle")}
           </h2>
         </AnimatedSection>
 

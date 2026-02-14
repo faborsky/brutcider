@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 
@@ -12,6 +13,9 @@ export default function HeroSection() {
     offset: ["start start", "end start"],
   });
   const y = useTransform(scrollYProgress, [0, 1], [0, -150]);
+  const t = useTranslations("HomePage");
+
+  const titleParts = t("heroTitle").split("\n");
 
   return (
     <section
@@ -21,7 +25,7 @@ export default function HeroSection() {
       <motion.div className="absolute inset-0" style={{ y }}>
         <Image
           src="/images/hero/hero01.webp"
-          alt="BRUT. craft cider cans on ice"
+          alt={t("heroImageAlt")}
           fill
           priority
           className="object-cover"
@@ -36,9 +40,12 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold text-warmwhite tracking-tight"
         >
-          Nothing added.
-          <br />
-          Nothing to hide.
+          {titleParts.map((part, i) => (
+            <span key={i}>
+              {i > 0 && <br />}
+              {part}
+            </span>
+          ))}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -46,7 +53,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-6 text-lg md:text-xl text-warmwhite/80"
         >
-          Dry craft cider from Ghent, Belgium.
+          {t("heroSubtitle")}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -54,7 +61,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-10"
         >
-          <Button href="/products">Discover our ciders</Button>
+          <Button href="/products">{t("heroCta")}</Button>
         </motion.div>
       </div>
     </section>

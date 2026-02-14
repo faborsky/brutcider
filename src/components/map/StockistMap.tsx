@@ -2,6 +2,7 @@
 
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
+import { useTranslations } from "next-intl";
 import { stockists } from "@/data/stockists";
 import "leaflet/dist/leaflet.css";
 
@@ -12,14 +13,16 @@ const limeIcon = new L.DivIcon({
   className: "",
 });
 
-const typeLabels: Record<string, string> = {
-  bar: "Bar",
-  restaurant: "Restaurant",
-  shop: "Shop",
-  "bottle-shop": "Bottle Shop",
-};
-
 export default function StockistMap() {
+  const t = useTranslations("FindUsPage");
+
+  const typeLabels: Record<string, string> = {
+    bar: t("typeBar"),
+    restaurant: t("typeRestaurant"),
+    shop: t("typeShop"),
+    "bottle-shop": t("typeBottleShop"),
+  };
+
   return (
     <MapContainer
       center={[50.85, 4.35]}

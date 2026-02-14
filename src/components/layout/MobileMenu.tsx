@@ -1,23 +1,27 @@
 "use client";
 
 import { AnimatePresence, motion } from "motion/react";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { slideFromRight } from "@/lib/animations";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 interface MobileMenuProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/products", label: "Products" },
-  { href: "/our-story", label: "Our Story" },
-  { href: "/find-us", label: "Find Us" },
-  { href: "/contact", label: "Contact" },
-];
-
 export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
+  const t = useTranslations("Navigation");
+
+  const links = [
+    { href: "/" as const, label: t("home") },
+    { href: "/products" as const, label: t("products") },
+    { href: "/our-story" as const, label: t("ourStory") },
+    { href: "/find-us" as const, label: t("findUs") },
+    { href: "/contact" as const, label: t("contact") },
+  ];
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -32,7 +36,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <button
             onClick={onClose}
             className="absolute top-6 right-6 text-warmwhite text-3xl font-light"
-            aria-label="Close menu"
+            aria-label={t("closeMenu")}
           >
             &times;
           </button>
@@ -49,6 +53,10 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               </Link>
             ))}
           </nav>
+
+          <div className="mt-10">
+            <LanguageSwitcher dark={false} />
+          </div>
         </motion.div>
       )}
     </AnimatePresence>

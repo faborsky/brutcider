@@ -1,18 +1,21 @@
 "use client";
 
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 import { staggerContainer, fadeInUp } from "@/lib/animations";
 import SectionHeading from "@/components/ui/SectionHeading";
 import ProductCard from "./ProductCard";
 import { products } from "@/data/products";
 
 export default function ProductGrid() {
+  const t = useTranslations("HomePage");
+
   return (
     <section className="py-20 md:py-32 px-6">
       <div className="max-w-7xl mx-auto">
         <SectionHeading
-          title="Four ciders. No filler."
-          subtitle="We don't do seasonal flavors. We do four things well."
+          title={t("gridTitle")}
+          subtitle={t("gridSubtitle")}
         />
 
         <motion.div

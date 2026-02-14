@@ -1,14 +1,20 @@
-import Link from "next/link";
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 
-const footerLinks = [
-  { href: "/products", label: "Products" },
-  { href: "/our-story", label: "Our Story" },
-  { href: "/find-us", label: "Find Us" },
-  { href: "/contact", label: "Contact" },
-];
-
 export default function Footer() {
+  const t = useTranslations("Footer");
+  const nav = useTranslations("Navigation");
+
+  const footerLinks = [
+    { href: "/products" as const, label: nav("products") },
+    { href: "/our-story" as const, label: nav("ourStory") },
+    { href: "/find-us" as const, label: nav("findUs") },
+    { href: "/contact" as const, label: nav("contact") },
+  ];
+
   return (
     <footer className="bg-offblack text-warmwhite">
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-20">
@@ -16,12 +22,12 @@ export default function Footer() {
           <div>
             <Image
               src="/images/logo/brut_white_no_backround.webp"
-              alt="BRUT Dry Craft Cider from Ghent Belgium"
+              alt={t("logoAlt")}
               width={100}
               height={36}
             />
             <p className="mt-4 text-softgrey text-sm max-w-xs">
-              Dry craft cider from Ghent, Belgium. Nothing added. Nothing to hide.
+              {t("description")}
             </p>
           </div>
 
@@ -38,18 +44,14 @@ export default function Footer() {
           </nav>
 
           <div className="text-sm text-softgrey">
-            <p>Brewed in Ghent.</p>
-            <p>Not brewed for everyone.</p>
+            <p>{t("brewedIn")}</p>
+            <p>{t("notForEveryone")}</p>
             <p className="mt-4 text-xs">
-              &copy; {new Date().getFullYear()} BRUT. All rights reserved.
+              {t("copyright", { year: new Date().getFullYear() })}
             </p>
-            <p className="mt-1 text-xs">
-              Enjoy responsibly. 18+ only.
-            </p>
+            <p className="mt-1 text-xs">{t("responsible")}</p>
             <p className="mt-4 text-xs border-t border-softgrey/20 pt-4">
-              <strong>Demo Project:</strong> This website is a demonstration
-              project created for educational and portfolio purposes. BRUT. is
-              not a real company or product.
+              <strong>{t("demoLabel")}</strong> {t("demoText")}
             </p>
           </div>
         </div>

@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import Button from "@/components/ui/Button";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const t = useTranslations("ContactPage");
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -17,15 +19,12 @@ export default function ContactForm() {
       <div className="max-w-2xl mx-auto">
         <AnimatedSection>
           <p className="text-softgrey text-sm uppercase tracking-wider font-medium mb-6">
-            Contact
+            {t("label")}
           </p>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">
-            Say something.
+            {t("heading")}
           </h1>
-          <p className="text-softgrey text-lg mb-16">
-            We read every message. We don&apos;t always reply fast, but we reply
-            honest.
-          </p>
+          <p className="text-softgrey text-lg mb-16">{t("subtitle")}</p>
         </AnimatedSection>
 
         {!submitted ? (
@@ -36,13 +35,13 @@ export default function ContactForm() {
                   htmlFor="name"
                   className="block text-sm font-medium uppercase tracking-wider mb-2"
                 >
-                  Name
+                  {t("nameLabel")}
                 </label>
                 <input
                   id="name"
                   type="text"
                   required
-                  placeholder="Your name"
+                  placeholder={t("namePlaceholder")}
                   className="w-full bg-transparent border-b border-softgrey py-3 text-offblack placeholder:text-softgrey/60 focus:outline-none focus:border-offblack"
                 />
               </div>
@@ -52,13 +51,13 @@ export default function ContactForm() {
                   htmlFor="email"
                   className="block text-sm font-medium uppercase tracking-wider mb-2"
                 >
-                  Email
+                  {t("emailLabel")}
                 </label>
                 <input
                   id="email"
                   type="email"
                   required
-                  placeholder="you@example.com"
+                  placeholder={t("emailPlaceholder")}
                   className="w-full bg-transparent border-b border-softgrey py-3 text-offblack placeholder:text-softgrey/60 focus:outline-none focus:border-offblack"
                 />
               </div>
@@ -68,38 +67,33 @@ export default function ContactForm() {
                   htmlFor="message"
                   className="block text-sm font-medium uppercase tracking-wider mb-2"
                 >
-                  Message
+                  {t("messageLabel")}
                 </label>
                 <textarea
                   id="message"
                   required
                   rows={5}
-                  placeholder="What's on your mind?"
+                  placeholder={t("messagePlaceholder")}
                   className="w-full bg-transparent border-b border-softgrey py-3 text-offblack placeholder:text-softgrey/60 focus:outline-none focus:border-offblack resize-none"
                 />
               </div>
 
               <div className="mt-4">
                 <Button type="submit" variant="primary">
-                  Send message
+                  {t("submit")}
                 </Button>
               </div>
 
-              <p className="text-xs text-softgrey">
-                This is a demo form. No data is sent anywhere.
-              </p>
+              <p className="text-xs text-softgrey">{t("demoDisclaimer")}</p>
             </form>
           </AnimatedSection>
         ) : (
           <AnimatedSection>
             <div className="py-16 text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                Message received.
+                {t("successTitle")}
               </h2>
-              <p className="text-softgrey">
-                Well, not really. This is a demo. But in real life, we&apos;d get
-                back to you.
-              </p>
+              <p className="text-softgrey">{t("successText")}</p>
             </div>
           </AnimatedSection>
         )}

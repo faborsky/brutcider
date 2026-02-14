@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function AgeGate() {
   const [verified, setVerified] = useState<boolean | null>(null);
   const [denied, setDenied] = useState(false);
+  const t = useTranslations("AgeGate");
 
   useEffect(() => {
     const stored = localStorage.getItem("brut-age-verified");
@@ -35,7 +37,7 @@ export default function AgeGate() {
         >
           <Image
             src="/images/logo/brut_white_no_backround.webp"
-            alt="BRUT Craft Cider Logo"
+            alt={t("logoAlt")}
             width={160}
             height={60}
             className="mb-16"
@@ -44,34 +46,30 @@ export default function AgeGate() {
           {!denied ? (
             <div className="text-center">
               <h2 className="text-warmwhite text-2xl md:text-3xl font-bold mb-2">
-                Are you 18 or older?
+                {t("question")}
               </h2>
-              <p className="text-softgrey text-sm mb-12">
-                You need to be of legal drinking age to enter.
-              </p>
+              <p className="text-softgrey text-sm mb-12">{t("subtitle")}</p>
               <div className="flex gap-4 justify-center">
                 <button
                   onClick={handleYes}
                   className="px-10 py-4 bg-lime text-offblack text-sm font-bold uppercase tracking-wider hover:bg-warmwhite transition-colors duration-0"
                 >
-                  Yes, I am
+                  {t("yes")}
                 </button>
                 <button
                   onClick={handleNo}
                   className="px-10 py-4 border border-softgrey text-softgrey text-sm font-bold uppercase tracking-wider hover:text-warmwhite hover:border-warmwhite transition-colors duration-0"
                 >
-                  No
+                  {t("no")}
                 </button>
               </div>
             </div>
           ) : (
             <div className="text-center">
               <p className="text-warmwhite text-xl md:text-2xl font-bold mb-4">
-                Sorry, you must be 18 or older.
+                {t("denied")}
               </p>
-              <p className="text-softgrey text-sm">
-                Come back when you're old enough. We'll be here.
-              </p>
+              <p className="text-softgrey text-sm">{t("deniedSub")}</p>
             </div>
           )}
         </motion.div>

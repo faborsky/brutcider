@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import { useTranslations } from "next-intl";
 
-const DEMO_BAR_HEIGHT = 48; // height in pixels
+const DEMO_BAR_HEIGHT = 48;
 
 export default function DemoNotice() {
   const [visible, setVisible] = useState(false);
+  const t = useTranslations("DemoNotice");
 
   useEffect(() => {
     const dismissed = localStorage.getItem("demo-notice-dismissed");
@@ -16,7 +18,6 @@ export default function DemoNotice() {
   }, []);
 
   useEffect(() => {
-    // Add padding to body when demo notice is visible
     if (visible) {
       document.body.style.paddingTop = `${DEMO_BAR_HEIGHT}px`;
     } else {
@@ -31,7 +32,6 @@ export default function DemoNotice() {
   function handleDismiss() {
     localStorage.setItem("demo-notice-dismissed", "true");
     setVisible(false);
-    // Dispatch event to notify other components
     window.dispatchEvent(new Event("demo-notice-dismissed"));
   }
 
@@ -48,14 +48,12 @@ export default function DemoNotice() {
         >
           <div className="max-w-7xl mx-auto flex items-center justify-between gap-4 h-full">
             <p className="text-sm">
-              <span className="font-bold">Demo Website:</span> This is a
-              demonstration project created for educational purposes. Not a real
-              business.
+              <span className="font-bold">{t("label")}</span> {t("text")}
             </p>
             <button
               onClick={handleDismiss}
               className="text-warmwhite hover:text-lime transition-colors text-xl leading-none flex-shrink-0"
-              aria-label="Dismiss notice"
+              aria-label={t("dismiss")}
             >
               ×
             </button>

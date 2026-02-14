@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import ProductHero from "@/components/products/ProductHero";
 import FlavorProfile from "@/components/products/FlavorProfile";
 import SpecsTable from "@/components/products/SpecsTable";
@@ -16,6 +17,12 @@ interface ProductDetailClientProps {
 export default function ProductDetailClient({
   product,
 }: ProductDetailClientProps) {
+  const t = useTranslations("Products");
+  const td = useTranslations("ProductDetail");
+
+  const slug = product.slug;
+  const fullName = t(`${slug}.fullName`);
+
   return (
     <>
       <ProductHero product={product} />
@@ -24,13 +31,13 @@ export default function ProductDetailClient({
         <div className="max-w-4xl mx-auto text-center">
           <AnimatedSection>
             <p className="text-softgrey text-sm uppercase tracking-wider font-medium mb-4">
-              {product.personality}
+              {t(`${slug}.personality`)}
             </p>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              {product.fullName}
+              {fullName}
             </h1>
             <p className="mt-4 text-xl md:text-2xl text-softgrey">
-              {product.heroSub}
+              {t(`${slug}.heroSub`)}
             </p>
           </AnimatedSection>
         </div>
@@ -45,15 +52,13 @@ export default function ProductDetailClient({
         <div className="max-w-4xl mx-auto text-center">
           <AnimatedSection>
             <h2 className="text-3xl md:text-5xl font-bold text-warmwhite tracking-tight mb-6">
-              Want to try {product.fullName}?
+              {td("ctaTitle", { name: fullName })}
             </h2>
-            <p className="text-softgrey mb-10">
-              Find it at a bar near you or order online.
-            </p>
+            <p className="text-softgrey mb-10">{td("ctaSubtitle")}</p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button href="/find-us">Find a stockist</Button>
-              <Button href={`#shop-${product.slug}`} variant="outline">
-                <span className="text-warmwhite">Order online</span>
+              <Button href="/find-us">{td("ctaFindStockist")}</Button>
+              <Button href={`#shop-${slug}`} variant="outline">
+                <span className="text-warmwhite">{td("ctaOrderOnline")}</span>
               </Button>
             </div>
           </AnimatedSection>

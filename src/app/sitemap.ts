@@ -1,50 +1,56 @@
-import { MetadataRoute } from 'next';
-import { products } from '@/data/products';
+import { MetadataRoute } from "next";
+import { products } from "@/data/products";
+import { getPathname } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.brutcider.com';
+  const baseUrl = "https://www.brutcider.com";
 
-  // Static routes
-  const staticRoutes: MetadataRoute.Sitemap = [
-    {
-      url: baseUrl,
+  type AppPathname = Parameters<typeof getPathname>[0]["href"];
+
+  function localizedUrl(locale: (typeof routing.locales)[number], href: AppPathname) {
+    const path = getPathname({ locale, href });
+    return `${baseUrl}${path}`;
+  }
+
+  function buildAlternates(href: AppPathname) {
+    const languages: Record<string, string> = {};
+    for (const locale of routing.locales) {
+      languages[locale] = localizedUrl(locale, href);
+    }
+    languages["x-default"] = localizedUrl(routing.defaultLocale, href);
+    return { languages };
+  }
+
+  function buildEntry(
+    href: AppPathname,
+    changeFrequency: "weekly" | "monthly",
+    priority: number
+  ) {
+    return routing.locales.map((locale) => ({
+      url: localizedUrl(locale, href),
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/products`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/our-story`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/find-us`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
+      changeFrequency,
+      priority,
+      alternates: buildAlternates(href),
+    }));
+  }
+
+  const staticRoutes = [
+    ...buildEntry("/", "weekly", 1),
+    ...buildEntry("/products", "weekly", 0.9),
+    ...buildEntry("/our-story", "monthly", 0.8),
+    ...buildEntry("/find-us", "weekly", 0.8),
+    ...buildEntry("/contact", "monthly", 0.7),
   ];
 
-  // Dynamic product routes
-  const productRoutes: MetadataRoute.Sitemap = products.map((product) => ({
-    url: `${baseUrl}/products/${product.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.9,
-  }));
+  const productRoutes = products.flatMap((product) =>
+    buildEntry(
+      { pathname: "/products/[slug]", params: { slug: product.slug } },
+      "monthly",
+      0.9
+    )
+  );
 
   return [...staticRoutes, ...productRoutes];
 }

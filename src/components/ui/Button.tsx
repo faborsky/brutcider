@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -33,8 +33,17 @@ export default function Button({
   const classes = cn(base, variants[variant], className);
 
   if (href) {
+    // External links or anchor links — use regular <a>
+    if (href.startsWith("http") || href.startsWith("#")) {
+      return (
+        <a href={href} className={classes}>
+          {children}
+        </a>
+      );
+    }
+    // Internal links — use i18n-aware Link
     return (
-      <Link href={href} className={classes}>
+      <Link href={href as "/"} className={classes}>
         {children}
       </Link>
     );
