@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Button from "@/components/ui/Button";
+import { trackCtaClick } from "@/lib/analytics";
 
 export default function HeroSection() {
   const ref = useRef<HTMLDivElement>(null);
@@ -61,7 +62,9 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-10"
         >
-          <Button href="/products">{t("heroCta")}</Button>
+          <Button href="/products" onClick={() => trackCtaClick("Shop Now", "hero")}>
+            {t("heroCta")}
+          </Button>
         </motion.div>
       </div>
     </section>

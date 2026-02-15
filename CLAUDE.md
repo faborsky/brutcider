@@ -349,6 +349,16 @@ Full checklist — every step is required:
 
 Edit `src/data/stockists.ts` — add a new object with `name`, `type` (bar/restaurant/shop/bottle-shop), `address`, `city`, `country` (2-letter code), `lat`, and `lng`. No translation files or code changes needed.
 
+## Analytics
+
+**GTM:** `GTM-57P44WM9` | **GA4:** `G-CJM3XBBB9T`
+
+Helpers in `src/lib/analytics.ts` — typed `dataLayer.push()` wrappers for `view_item`, `cta_click`, `age_gate`, `language_switch`. TypeScript declarations in `src/types/gtm.d.ts`. GTM snippet loaded in `src/app/[locale]/layout.tsx`.
+
+CTA tracking uses fixed English strings (not translated) for consistent cross-locale GA4 reporting.
+
+Full documentation: [`analytics.md`](analytics.md)
+
 ## Important Conventions
 
 - **Never use `type: any`** — use strict typing, generics, or `unknown`

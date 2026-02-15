@@ -36,14 +36,14 @@ export default function Button({
     // External links or anchor links — use regular <a>
     if (href.startsWith("http") || href.startsWith("#")) {
       return (
-        <a href={href} className={classes}>
+        <a href={href} className={classes} onClick={onClick}>
           {children}
         </a>
       );
     }
     // Internal links — use i18n-aware Link
     return (
-      <Link href={href as "/"} className={classes}>
+      <Link href={href as "/"} className={classes} onClick={onClick}>
         {children}
       </Link>
     );

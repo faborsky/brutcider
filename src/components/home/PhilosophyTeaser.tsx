@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import Button from "@/components/ui/Button";
+import { trackCtaClick } from "@/lib/analytics";
 
 export default function PhilosophyTeaser() {
   const t = useTranslations("HomePage");
@@ -33,7 +34,11 @@ export default function PhilosophyTeaser() {
 
         <AnimatedSection delay={0.2}>
           <div className="mt-10">
-            <Button href="/our-story" variant="outline">
+            <Button
+              href="/our-story"
+              variant="outline"
+              onClick={() => trackCtaClick("Read Our Story", "homepage_philosophy")}
+            >
               {t("philosophyCta")}
             </Button>
           </div>

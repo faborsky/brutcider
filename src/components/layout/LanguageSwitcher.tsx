@@ -3,6 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { routing, type Locale } from "@/i18n/routing";
+import { trackLanguageSwitch } from "@/lib/analytics";
 
 const flags: Record<Locale, string> = {
   en: "\u{1F1EC}\u{1F1E7}",
@@ -28,6 +29,7 @@ export default function LanguageSwitcher({
   const t = useTranslations("LanguageSwitcher");
 
   function switchLocale(nextLocale: Locale) {
+    trackLanguageSwitch(locale, nextLocale);
     // Type assertion needed because usePathname returns resolved paths
     // (e.g., /products/original) which don't match pattern types
     router.replace(pathname as "/", { locale: nextLocale });

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { trackAgeGate } from "@/lib/analytics";
 
 export default function AgeGate() {
   const [verified, setVerified] = useState<boolean | null>(null);
@@ -16,11 +17,13 @@ export default function AgeGate() {
   }, []);
 
   function handleYes() {
+    trackAgeGate(true);
     localStorage.setItem("brut-age-verified", "true");
     setVerified(true);
   }
 
   function handleNo() {
+    trackAgeGate(false);
     setDenied(true);
   }
 

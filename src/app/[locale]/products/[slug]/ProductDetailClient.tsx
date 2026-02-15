@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { useTranslations } from "next-intl";
 import ProductHero from "@/components/products/ProductHero";
 import FlavorProfile from "@/components/products/FlavorProfile";
@@ -9,6 +10,7 @@ import LifestyleGallery from "@/components/products/LifestyleGallery";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import Button from "@/components/ui/Button";
 import type { Product } from "@/data/products";
+import { trackViewItem, trackCtaClick } from "@/lib/analytics";
 
 interface ProductDetailClientProps {
   product: Product;
@@ -22,6 +24,10 @@ export default function ProductDetailClient({
 
   const slug = product.slug;
   const fullName = t(`${slug}.fullName`);
+
+  useEffect(() => {
+    trackViewItem({ name: fullName, id: slug, category: "cider" });
+  }, [fullName, slug]);
 
   return (
     <>
@@ -56,8 +62,17 @@ export default function ProductDetailClient({
             </h2>
             <p className="text-softgrey mb-10">{td("ctaSubtitle")}</p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button href="/find-us">{td("ctaFindStockist")}</Button>
-              <Button href={`#shop-${slug}`} variant="outline">
+              <Button
+                href="/find-us"
+                onClick={() => trackCtaClick("Find a Stockist", "product_detail_cta")}
+              >
+                {td("ctaFindStockist")}
+              </Button>
+              <Button
+                href={`#shop-${slug}`}
+                variant="outline"
+                onClick={() => trackCtaClick("Order Online", "product_detail_cta")}
+              >
                 <span className="text-warmwhite">{td("ctaOrderOnline")}</span>
               </Button>
             </div>
