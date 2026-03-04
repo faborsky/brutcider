@@ -14,20 +14,20 @@
     "home": "Home",
     "openMenu": "Menu openen",
     "closeMenu": "Menu sluiten",
-    "logoAlt": "BRUT Droge Craft Cider Logo"
+    "logoAlt": "BRUT. Droge Craft Cider — logo"
   },
   "Footer": {
-    "logoAlt": "BRUT Droge Craft Cider uit Gent, België",
+    "logoAlt": "BRUT. Droge Craft Cider uit Gent, België",
     "description": "Droge craft cider uit Gent, België. Niks toegevoegd. Niks te verbergen.",
     "brewedIn": "Gebrouwen in Gent.",
     "notForEveryone": "Niet gebrouwen voor iedereen.",
     "copyright": "© {year} BRUT. Alle rechten voorbehouden.",
-    "responsible": "Drink met mate. 18+ only.",
+    "responsible": "Drink met mate. Alleen 18+.",
     "demoLabel": "Demoproject:",
     "demoText": "Deze website is een demonstratieproject, gemaakt voor educatieve en portfoliodoeleinden. BRUT. is geen echt bedrijf of product."
   },
   "AgeGate": {
-    "logoAlt": "BRUT Craft Cider Logo",
+    "logoAlt": "BRUT. Craft Cider — logo",
     "question": "Ben je 18 of ouder?",
     "subtitle": "Je moet de wettelijke drinkleeftijd hebben om verder te gaan.",
     "yes": "Ja",
@@ -46,12 +46,12 @@
     "heroCta": "Ontdek onze ciders",
     "heroImageAlt": "BRUT. craft cider blikjes op ijs",
     "introTitle": "Wij maken cider.\nDroge cider. Dat is het.",
-    "introText": "Vier ingrediënten. We zouden ze kunnen opsommen, maar dat wordt saai. Vlaamse appels, water, gist en verder niks. Kurkdroog vergist. Geen suiker. Geen shortcuts. Geen excuses.",
+    "introText": "Vier ingrediënten. We zouden ze kunnen opsommen, maar dat wordt saai. Vlaamse appels, water, gist en verder niks. Kurkdroog vergist. Geen suiker. Geen sluiproutes. Geen excuses.",
     "gridTitle": "Vier ciders. Geen opvulling.",
-    "gridSubtitle": "We doen niet aan seizoenssmaken. We doen vier dingen goed.",
+    "gridSubtitle": "Geen seizoensedities. Vier dingen die we goed doen.",
     "buyTitle": "Bestel BRUT.",
-    "buySubtitle": "We staan in bars die erom geven. En online voor wie liever thuisblijft.",
-    "shopButton": "Shop {name}",
+    "buySubtitle": "In bars die erom geven. En online voor wie liever op de bank blijft.",
+    "shopButton": "Koop {name}",
     "freeShipping": "Gratis verzending vanaf €40. België, Nederland, Duitsland, Frankrijk.",
     "philosophyLabel": "Onze Filosofie",
     "philosophyTitle": "Begonnen in een garage.\nNog steeds geen suiker.",
@@ -63,7 +63,7 @@
     "description": "Vier droge ciders. Geen opvulling. Geen suiker. Niks toegevoegd.",
     "ogTitle": "Ciderproducten — BRUT.",
     "heading": "Onze Ciders",
-    "subtitle": "We doen niet aan seizoenssmaken. We doen vier dingen goed.",
+    "subtitle": "Geen seizoensedities. Vier dingen die we goed doen.",
     "abvLabel": "ABV"
   },
   "ProductDetail": {
@@ -96,6 +96,9 @@
     "ctaSubtitle": "Vind het in een bar bij jou in de buurt of bestel online.",
     "ctaFindStockist": "Vind een verkooppunt",
     "ctaOrderOnline": "Bestel online",
+    "socialLabel": "Op Social",
+    "socialTitle": "Gezien op @brut.cider",
+    "socialAlt": "{name} social media campagnebeeld",
     "ciderSuffix": "Cider",
     "ogSuffix": "Cider — BRUT."
   },
@@ -190,7 +193,7 @@
       "carbonation": "Gemiddeld",
       "body": "Licht",
       "character": "Verwarmend, gedurfd",
-      "bestFor": "Wake-up call",
+      "bestFor": "Opkikker",
       "heroMessage": "Brandt een beetje. Op de goede manier.",
       "heroSub": "Droge appelcider. Echte gember. Nul excuses.",
       "flavorProfile": {
@@ -233,7 +236,7 @@
     "value2Title": "Vier ingrediënten",
     "value2Text": "Appels, water, gist en wat er na de gisting wordt toegevoegd per variant. Dat is de lijst. We zouden hem korter kunnen maken, maar dan hadden we appelsap.",
     "value3Title": "Design doet ertoe",
-    "value3Text": "De branding is net zo minimaal als het product. Geen craft-clichés. Geen jute. Geen handgetekend gedoe. We zien eruit zoals we smaken — tot de kern.",
+    "value3Text": "De branding is net zo minimaal als het product. Geen craft-clichés. Geen jute. Geen handgetekend gedoe. We zien eruit zoals we smaken — gestript.",
     "value4Title": "Lokaal eerst",
     "value4Text": "Vlaamse appels van kleine boomgaarden. Het soort dat Google Maps niet kent. We kopen lokaal omdat lokaal beter is, niet omdat het een marketingverhaal is."
   },
@@ -252,9 +255,9 @@
     "typeBottleShop": "Slijterij"
   },
   "ContactPage": {
-    "title": "Contact BRUT Cider",
-    "description": "Neem contact op met BRUT. We lezen elk bericht. We reageren niet altijd snel, maar wel eerlijk.",
-    "ogTitle": "Contact BRUT Cider",
+    "title": "Contact BRUT. Cider",
+    "description": "Neem contact op met BRUT. We lezen elk bericht. Niet altijd snel, maar altijd eerlijk.",
+    "ogTitle": "Contact BRUT. Cider",
     "label": "Contact",
     "heading": "Zeg het maar.",
     "subtitle": "We lezen elk bericht. We reageren niet altijd snel, maar wel eerlijk.",

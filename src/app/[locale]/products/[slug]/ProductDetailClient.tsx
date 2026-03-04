@@ -7,6 +7,7 @@ import FlavorProfile from "@/components/products/FlavorProfile";
 import SpecsTable from "@/components/products/SpecsTable";
 import ProductCopyBlock from "@/components/products/ProductCopyBlock";
 import LifestyleGallery from "@/components/products/LifestyleGallery";
+import SocialGallery from "@/components/products/SocialGallery";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import Button from "@/components/ui/Button";
 import type { Product } from "@/data/products";
@@ -53,6 +54,7 @@ export default function ProductDetailClient({
       <SpecsTable product={product} />
       <ProductCopyBlock product={product} />
       <LifestyleGallery product={product} />
+      <SocialGallery product={product} />
 
       <section className="py-20 md:py-32 px-6 bg-offblack">
         <div className="max-w-4xl mx-auto text-center">

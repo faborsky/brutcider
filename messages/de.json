@@ -2,7 +2,7 @@
   "Metadata": {
     "title": "BRUT. — Trockener Craft Cider aus Gent",
     "titleTemplate": "%s | BRUT.",
-    "description": "Nichts zugesetzt. Nichts zu verbergen. Trockener Craft Cider aus flämischen Äpfeln. Null Zucker. Voller Geschmack.",
+    "description": "Nichts zugesetzt. Nichts zu verstecken. Trockener Craft Cider aus flämischen Äpfeln. Null Zucker. Voller Geschmack.",
     "keywords": "Craft Cider, trockener Cider, belgischer Cider, flämische Äpfel, Cider ohne Zucker, Gent Cider, handwerklicher Cider, BRUT Cider",
     "ogImageAlt": "BRUT. Trockener Craft Cider – Vier Sorten auf Eis"
   },
@@ -14,62 +14,62 @@
     "home": "Startseite",
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen",
-    "logoAlt": "BRUT Trockener Craft Cider Logo"
+    "logoAlt": "BRUT. Trockener Craft Cider — Logo"
   },
   "Footer": {
-    "logoAlt": "BRUT Trockener Craft Cider aus Gent, Belgien",
-    "description": "Trockener Craft Cider aus Gent, Belgien. Nichts zugesetzt. Nichts zu verbergen.",
+    "logoAlt": "BRUT. Trockener Craft Cider aus Gent, Belgien",
+    "description": "Trockener Craft Cider aus Gent, Belgien. Nichts zugesetzt. Nichts zu verstecken.",
     "brewedIn": "Gebraut in Gent.",
-    "notForEveryone": "Nicht für jeden gebraut.",
+    "notForEveryone": "Nicht für jeden.",
     "copyright": "© {year} BRUT. Alle Rechte vorbehalten.",
     "responsible": "Genieße verantwortungsvoll. Ab 18.",
     "demoLabel": "Demo-Projekt:",
     "demoText": "Diese Website ist ein Demonstrationsprojekt für Bildungs- und Portfoliozwecke. BRUT. ist kein echtes Unternehmen und kein echtes Produkt."
   },
   "AgeGate": {
-    "logoAlt": "BRUT Craft Cider Logo",
+    "logoAlt": "BRUT. Craft Cider — Logo",
     "question": "Bist du 18 oder älter?",
-    "subtitle": "Du musst volljährig sein, um fortzufahren.",
+    "subtitle": "Du musst volljährig sein, um reinzukommen.",
     "yes": "Ja, bin ich",
     "no": "Nein",
-    "denied": "Du musst mindestens 18 Jahre alt sein.",
-    "deniedSub": "Komm wieder, wenn du alt genug bist. Wir sind dann noch da."
+    "denied": "Du musst mindestens 18 sein.",
+    "deniedSub": "Komm wieder, wenn du alt genug bist. Wir sind noch da."
   },
   "DemoNotice": {
     "label": "Demo-Website:",
-    "text": "Dies ist ein Demonstrationsprojekt für Bildungszwecke. Kein echtes Unternehmen.",
+    "text": "Demonstrationsprojekt für Bildungszwecke. Kein echtes Unternehmen.",
     "dismiss": "Hinweis schließen"
   },
   "HomePage": {
-    "heroTitle": "Nichts zugesetzt.\nNichts zu verbergen.",
+    "heroTitle": "Nichts zugesetzt.\nNichts zu verstecken.",
     "heroSubtitle": "Trockener Craft Cider aus Gent, Belgien.",
     "heroCta": "Unsere Cider entdecken",
     "heroImageAlt": "BRUT. Craft Cider Dosen auf Eis",
     "introTitle": "Wir machen Cider.\nTrockenen Cider. Punkt.",
-    "introText": "Vier Zutaten. Wir könnten sie aufzählen, aber das wäre langweilig. Flämische Äpfel, Wasser, Hefe und sonst nichts. Knochentrocken vergoren. Kein Zucker. Keine Abkürzungen. Keine Entschuldigungen.",
+    "introText": "Vier Zutaten. Flämische Äpfel, Wasser, Hefe und sonst nichts. Knochentrocken vergoren. Kein Zucker. Keine Abkürzungen. Keine Entschuldigungen.",
     "gridTitle": "Vier Cider. Kein Füllstoff.",
-    "gridSubtitle": "Wir machen keine Saisongeschmäcker. Wir machen vier Dinge richtig.",
+    "gridSubtitle": "Keine Saisoneditions. Vier Dinge, die wir richtig machen.",
     "buyTitle": "BRUT. bestellen",
-    "buySubtitle": "Wir sind in Bars, denen es nicht egal ist. Und online für alle, die nicht rausgehen wollen.",
-    "shopButton": "Bei {name} kaufen",
+    "buySubtitle": "In Bars, denen es nicht egal ist. Und online für alle, die lieber auf dem Sofa bleiben.",
+    "shopButton": "{name} kaufen",
     "freeShipping": "Kostenloser Versand ab 40 €. Belgien, Niederlande, Deutschland, Frankreich.",
     "philosophyLabel": "Unsere Philosophie",
     "philosophyTitle": "In einer Garage gestartet.\nImmer noch kein Zucker.",
-    "philosophyText": "Drei Freunde aus Gent. Hintergrund in Design und Gastronomie, null Erfahrung im Brauen. Sie wollten ein Getränk, das zu ihrem Leben passt — pur, kein Zucker, kein Bullshit.",
+    "philosophyText": "Drei Kumpel aus Gent. Design und Gastro im Hintergrund, null Plan vom Brauen. Sie wollten ein Getränk, das zu ihrem Leben passt — pur, kein Zucker, kein Bullshit.",
     "philosophyCta": "Unsere Geschichte lesen"
   },
   "ProductsPage": {
-    "title": "Cider Produkte",
+    "title": "Cider",
     "description": "Vier trockene Cider. Kein Füllstoff. Kein Zucker. Nichts zugesetzt.",
-    "ogTitle": "Cider Produkte — BRUT.",
+    "ogTitle": "Cider — BRUT.",
     "heading": "Unsere Cider",
-    "subtitle": "Wir machen keine Saisongeschmäcker. Wir machen vier Dinge richtig.",
+    "subtitle": "Keine Saisoneditions. Vier Dinge, die wir richtig machen.",
     "abvLabel": "Vol."
   },
   "ProductDetail": {
-    "lifestyleAlt": "{name} trockener Craft Cider Lifestyle-Foto",
-    "productAlt": "{name} - {tagline} - Trockener Cider aus Belgien",
-    "productCardAlt": "{name} - {tagline} - Trockener Craft Cider Dose",
+    "lifestyleAlt": "{name} trockener Craft Cider — Lifestyle-Foto",
+    "productAlt": "{name} — {tagline} — Trockener Cider aus Belgien",
+    "productCardAlt": "{name} — {tagline} — Trockener Craft Cider Dose",
     "galleryAlt": "{name} trockener Craft Cider im Lifestyle-Setting",
     "flavorProfileLabel": "Geschmacksprofil",
     "base": "Basis",
@@ -96,6 +96,9 @@
     "ctaSubtitle": "In einer Bar in deiner Nähe oder online bestellen.",
     "ctaFindStockist": "Verkaufsstelle finden",
     "ctaOrderOnline": "Online bestellen",
+    "socialLabel": "Auf Social",
+    "socialTitle": "Gesehen auf @brut.cider",
+    "socialAlt": "{name} Social-Media-Kampagnenbild",
     "ciderSuffix": "Cider",
     "ogSuffix": "Cider — BRUT."
   },
@@ -114,44 +117,44 @@
       "heroSub": "Der, mit dem alles anfing. Immer noch der, der zählt.",
       "flavorProfile": {
         "base": "Sortenreine flämische Äpfel (hauptsächlich Jonagold), knochentrocken vergoren",
-        "tasteJourney": "Frischer Apfel am Anfang — mineralische Mitte — knochentrockenes Finish mit feinem Tannin",
+        "tasteJourney": "Knackiger Apfel am Anfang — mineralische Mitte — knochentrockenes Finish mit feinem Tannin",
         "sweetnessLevel": "Null Restzucker — komplett trocken, fast wie Champagner",
-        "mouthfeel": "Hohe Kohlensäure, leichter Körper, erfrischende Säure",
-        "notLike": "Süße Industrie-Cider, flacher Apfelwein, Apfelsaft mit Alkohol",
-        "moreLike": "Trockener Champagner trifft herben Apfel. Klar, kompromisslos, präzise."
+        "mouthfeel": "Starke Kohlensäure, leichter Körper, lebendige Säure",
+        "notLike": "Süße Supermarkt-Cider, flacher Apfelwein, Apfelsaft mit Alkohol",
+        "moreLike": "Trockener Champagner mit Apfel-Kante. Klar, kompromisslos, präzise."
       },
       "copyBlocks": {
-        "whatItIs": "Flämische Äpfel, komplett trocken vergoren. Hohe Kohlensäure. Null Restzucker. So schmeckt Cider, wenn man aufhört, ihn zu etwas anderem zu machen.",
-        "whyItMatters": "Die meisten Cider fügen nach der Gärung Zucker hinzu. Wir nicht. Trocken heißt, du schmeckst die Äpfel, nicht den Süßstoff. Trocken heißt, du kannst drei trinken, ohne dich schwer zu fühlen. Trocken heißt ehrlich.",
-        "howWeMakeIt": "Äpfel pressen. Vergären, bis kein Zucker mehr übrig ist. Stark karbonisieren. Kalt abfüllen. Vier Zutaten. Eine Philosophie. Nichts zugesetzt. Nichts zu verbergen.",
-        "whoItsFor": "Für Leute, die trockenen Wein trinken, nicht Moscato. Espresso, nicht Frappuccino. Die, die schon wissen, was sie mögen."
+        "whatItIs": "Flämische Äpfel, knochentrocken vergoren. Starke Kohlensäure. Null Restzucker. So schmeckt Cider, wenn du aufhörst, ihn zur Limo zu machen.",
+        "whyItMatters": "Die meisten Cider kippen nach der Gärung Zucker rein. Wir nicht. Trocken heißt: du schmeckst Apfel, nicht Süßstoff. Trocken heißt: drei Dosen, kein Völlegefühl. Trocken heißt: ehrlich.",
+        "howWeMakeIt": "Äpfel pressen. Vergären, bis kein Gramm Zucker übrig ist. Ordentlich karbonisieren. Kalt abfüllen. Vier Zutaten. Ein Prinzip. Nichts zugesetzt. Nichts zu verstecken.",
+        "whoItsFor": "Für Leute, die trockenen Wein trinken, nicht Moscato. Espresso, nicht Frappuccino. Die, die längst wissen, was sie wollen."
       }
     },
     "haze": {
       "name": "Haze",
       "fullName": "BRUT. Haze",
-      "tagline": "Trüb ohne Kompromisse.",
+      "tagline": "Trüb. Ohne Kompromisse.",
       "personality": "Der Rebell",
       "sweetness": "Halbtrocken",
       "carbonation": "Mittel",
       "body": "Mittel",
-      "character": "Vielschichtig, voll",
+      "character": "Texturiert, voll",
       "bestFor": "Zum Essen",
-      "heroMessage": "Trüb ohne Kompromisse.",
-      "heroSub": "Ungefiltert. Halbtrocken. Voller Charakter.",
+      "heroMessage": "Trüb. Ohne Kompromisse.",
+      "heroSub": "Ungefiltert. Halbtrocken. Charakter ab dem ersten Schluck.",
       "flavorProfile": {
-        "base": "Blend aus herben flämischen Äpfeln (Boskoop-betont), ungefiltert",
-        "tasteJourney": "Voller Apfelgeschmack am Anfang — cremige Mitte durch Schwebstoffe — halbtrockenes Finish mit Apfelschalen-Tannin",
-        "sweetnessLevel": "Halbtrocken (minimaler Restzucker) — die Trübung bringt Körper, keine Süße",
-        "mouthfeel": "Mittlere Kohlensäure, vollerer Körper, leichte Cremigkeit durch Hefe in Suspension",
+        "base": "Blend herber flämischer Äpfel (Boskoop-betont), ungefiltert",
+        "tasteJourney": "Voller Apfel am Anfang — cremige Mitte durch Schwebstoffe — halbtrockenes Finish mit Apfelschalen-Tannin",
+        "sweetnessLevel": "Halbtrocken (minimaler Restzucker) — Trübe bringt Körper, keine Süße",
+        "mouthfeel": "Mittlere Kohlensäure, vollerer Körper, leichte Cremigkeit von der Hefe",
         "notLike": "Trüber Apfelsaft, süße ungefilterte Cider, Hazy IPAs",
-        "moreLike": "Naturwein mit Depot. Unpasteurisierter Sake. Bewusste Trübe, die Charakter bringt."
+        "moreLike": "Naturwein mit Depot. Unpasteurisierter Sake. Trübung, die Charakter bringt."
       },
       "copyBlocks": {
-        "whatItIs": "Ungefilterter Cider aus herben flämischen Äpfeln. Wir lassen die Feststoffe drin. Sie bringen Körper, Textur und volleren Apfelgeschmack. Die Trübe ist kein Fehler. Sie ist der ganze Punkt.",
-        "whyItMatters": "Filtern macht Cider klar. Es nimmt aber auch Geschmack, Textur und Charakter. Uns ist trüber Cider, der nach Äpfeln schmeckt, lieber als kristallklare Flüssigkeit, die nach nichts schmeckt. Klarheit ist überbewertet.",
-        "howWeMakeIt": "Herbe Äpfel pressen. Halbtrocken vergären. Den Filtrationsschritt überspringen, den alle anderen machen. Trüb abfüllen. Was du an Instagram-Ästhetik verlierst, gewinnst du an Geschmack.",
-        "whoItsFor": "Für Naturwein-Trinker. Für Leute, die das trübe Bier bestellen. Für alle, die Substanz über Schein stellen."
+        "whatItIs": "Ungefilterter Cider aus herben flämischen Äpfeln. Die Feststoffe bleiben drin. Sie bringen Körper, Textur und volleren Apfelgeschmack. Die Trübe ist kein Fehler. Sie ist der Punkt.",
+        "whyItMatters": "Filtern macht Cider klar. Nimmt ihm aber auch Geschmack, Textur und Charakter. Lieber trüber Cider, der nach Apfel schmeckt, als kristallklare Flüssigkeit ohne Aussage. Klarheit ist überbewertet.",
+        "howWeMakeIt": "Herbe Äpfel pressen. Halbtrocken vergären. Filtration? Überspringen wir. Trüb abfüllen. Was du an Instagram-Ästhetik verlierst, gewinnst du an Geschmack.",
+        "whoItsFor": "Für Naturwein-Fans. Für die, die das trübe Bier bestellen. Für alle, denen Substanz wichtiger ist als Schein."
       }
     },
     "cassis": {
@@ -172,79 +175,79 @@
         "sweetnessLevel": "Knochentrocken — Johannisbeere bringt Herbheit und Farbe, keinen Zucker",
         "mouthfeel": "Mittlere Kohlensäure, leichter Tannin-Griff von den Johannisbeeren",
         "notLike": "Süße Beeren-Cider, Fruchtbiere, Rosé, Sangria",
-        "moreLike": "Trockener Wermut trifft herbe Beeren. Crème de Cassis ohne den Zucker. Konzentriert, aber nicht süß."
+        "moreLike": "Trockener Wermut mit herben Beeren. Crème de Cassis ohne Zucker. Konzentriert, aber nicht süß."
       },
       "copyBlocks": {
-        "whatItIs": "Trockener Cider mit belgischem Schwarzem Johannisbeersaft. Kein süßer Beeren-Cider. Kein Rosé. Herbe dunkle Frucht auf knochentrockenem Apfel. Komplexer Geschmack ohne zugesetzten Zucker.",
-        "whyItMatters": "Schwarze Johannisbeeren sind von Natur aus herb, nicht süß. Sie bringen Tiefe, Farbe und Tanninstruktur, ohne dass Zucker zum Ausgleich nötig wäre. Wir kombinieren sie mit trockenem Apfel, weil beide für sich allein stehen können. Zusammen sind sie besser.",
-        "howWeMakeIt": "Die Äpfel komplett trocken vergären. Schwarzen Johannisbeersaft nach der Gärung zugeben. Die Herbheit beider Zutaten für sich sprechen lassen. Kalt abfüllen. Kein Zucker in keinem Schritt.",
-        "whoItsFor": "Für Leute, die Campari trinken, nicht Aperol. Trockenen Wermut, nicht süßen. Die, die Komplexität wollen, nicht Komfort."
+        "whatItIs": "Trockener Cider mit belgischem Johannisbeersaft. Kein süßer Beeren-Cider. Kein Rosé. Herbe dunkle Frucht auf knochentrockenem Apfel. Komplexer Geschmack ohne ein Gramm Zucker.",
+        "whyItMatters": "Schwarze Johannisbeeren sind herb, nicht süß. Sie bringen Tiefe, Farbe und Tannin — ohne Zucker zum Ausgleich. Wir kombinieren sie mit trockenem Apfel, weil beide allein bestehen können. Zusammen noch besser.",
+        "howWeMakeIt": "Äpfel knochentrocken vergären. Johannisbeersaft nach der Gärung dazu. Die Herbheit beider Zutaten für sich sprechen lassen. Kalt abfüllen. Kein Zucker. In keinem Schritt.",
+        "whoItsFor": "Für Leute, die Campari trinken, nicht Aperol. Trockenen Wermut, nicht süßen. Für die, die Komplexität suchen, nicht Komfort."
       }
     },
     "ginger": {
       "name": "Ginger",
       "fullName": "BRUT. Ginger",
-      "tagline": "Brennt ein bisschen. Auf die gute Art.",
+      "tagline": "Brennt ein bisschen. Genau richtig.",
       "personality": "Der Provokateur",
       "sweetness": "Knochentrocken",
       "carbonation": "Mittel",
       "body": "Leicht",
-      "character": "Wärmend, kräftig",
+      "character": "Wärmend, direkt",
       "bestFor": "Wachmacher",
-      "heroMessage": "Brennt ein bisschen. Auf die gute Art.",
+      "heroMessage": "Brennt ein bisschen. Genau richtig.",
       "heroSub": "Trockener Apfelcider. Echter Ingwer. Null Entschuldigungen.",
       "flavorProfile": {
-        "base": "Trocken vergorene flämische Äpfel (Jonagold, Boskoop Blend)",
+        "base": "Trocken vergorene flämische Äpfel (Jonagold-Boskoop-Blend)",
         "tasteJourney": "Klarer Apfel am Anfang — Ingwer-Wärme baut sich in der Mitte auf — frisches, trockenes Finish mit nachklingender Schärfe",
-        "sweetnessLevel": "Knochentrocken (0g Restzucker) — der Ingwer bringt Schärfe, keine Süße",
-        "mouthfeel": "Mittlere Kohlensäure, leicht wärmend durch Ingweröle",
-        "notLike": "Ginger Beer (zu süß), Moscow Mule (zu zuckrig), Ingwer-Shot (zu aggressiv)",
-        "moreLike": "Der Ingwer, den man bei gutem Sushi wirklich schmeckt. Das Brennen, das dich aufmerken lässt."
+        "sweetnessLevel": "Knochentrocken (0g Restzucker) — Ingwer bringt Schärfe, keine Süße",
+        "mouthfeel": "Mittlere Kohlensäure, angenehm wärmend durch Ingweröle",
+        "notLike": "Ginger Beer (viel zu süß), Moscow Mule (Zuckerbombe), Ingwer-Shot (zu brutal)",
+        "moreLike": "Der Ingwer, den du bei gutem Sushi wirklich spürst. Das Brennen, das dich aufmerken lässt."
       },
       "copyBlocks": {
-        "whatItIs": "Trockener Cider mit frischem Ingwersaft. Kein Extrakt. Kein Sirup. Der Ingwer, den du in der Brust spürst, nicht in den Zähnen.",
-        "whyItMatters": "Die meisten Ingwer-Getränke verstecken die Schärfe hinter Zucker. Wir lassen sie einfach wirken. Knochentrockene Basis. Echtes Ingwer-Brennen. Nichts, das im Weg steht.",
-        "howWeMakeIt": "Die Äpfel komplett trocken vergären. Frischen Ingwersaft nach der Gärung zugeben. Kalt abfüllen. Das ist das Rezept. Und auch die einzige Art, es richtig zu machen.",
-        "whoItsFor": "Kein Einstiegs-Cider. Keine sichere Wahl. Für Leute, die wollen, dass ihre Getränke eine Meinung haben."
+        "whatItIs": "Trockener Cider mit frischem Ingwersaft. Kein Extrakt. Kein Sirup. Ingwer, den du in der Brust spürst, nicht in den Zähnen.",
+        "whyItMatters": "Die meisten Ingwer-Drinks verstecken die Schärfe hinter Zucker. Wir lassen sie machen. Knochentrockene Basis. Echtes Ingwer-Brennen. Nichts, was im Weg steht.",
+        "howWeMakeIt": "Äpfel knochentrocken vergären. Frischen Ingwersaft nach der Gärung dazu. Kalt abfüllen. Das ist das Rezept. Und die einzige Art, es richtig zu machen.",
+        "whoItsFor": "Kein Einstiegs-Cider. Keine sichere Wahl. Für Leute, deren Getränke eine Meinung haben dürfen."
       }
     }
   },
   "OurStoryPage": {
-    "title": "Unsere Cider-Geschichte",
-    "description": "Drei Freunde aus Gent. Hintergrund in Design und Gastronomie, null Erfahrung im Brauen. In einer Garage gestartet. Immer noch kein Zucker.",
-    "ogTitle": "Unsere Cider-Geschichte — BRUT.",
+    "title": "Unsere Geschichte",
+    "description": "Drei Kumpel aus Gent. Design und Gastro im Hintergrund, null Plan vom Brauen. Gestartet in einer Garage. Immer noch kein Zucker.",
+    "ogTitle": "Unsere Geschichte — BRUT.",
     "label": "Unsere Geschichte",
-    "heading": "Drei Freunde.\nEine Garage.\nNull Erfahrung.",
+    "heading": "Drei Kumpel.\nEine Garage.\nNull Erfahrung.",
     "foundersImageAlt": "Roos, Sander und Wout — Gründer von BRUT.",
-    "foundersParagraph1": "Gestartet von Roos, Sander und Wout in einer Garage in Gent. Hintergrund in Design und Gastronomie, null Erfahrung im Brauen. Sie wollten ein Getränk, das zu ihrem Leben passt — pur, kein Zucker, kein Bullshit.",
-    "foundersParagraph2": "Belgien hat eine großartige Bierkultur, aber sie sahen eine Lücke: Niemand machte Cider, der aussieht und schmeckt, als gehöre er ins Jahr 2026. Sie beziehen Äpfel von kleinen flämischen Obstgärten, vergären alles trocken und halten die Zutatenliste peinlich kurz.",
+    "foundersParagraph1": "Roos, Sander und Wout haben in einer Garage in Gent angefangen. Design und Gastro im Hintergrund, null Plan vom Brauen. Sie wollten ein Getränk, das zu ihrem Leben passt — pur, kein Zucker, kein Bullshit.",
+    "foundersParagraph2": "Belgien hat eine großartige Bierkultur, aber niemand machte Cider, der aussieht und schmeckt, als gehöre er ins Jahr 2026. Sie holen Äpfel von kleinen flämischen Obstgärten, vergären alles trocken und halten die Zutatenliste peinlich kurz.",
     "timeline2023Title": "Die Garage",
-    "timeline2023Text": "Erste Charge in einer gemieteten Garage in Gent gebraut. Drei Freunde, eine Presse, keine Ahnung, was sie taten. Der Cider war trocken. Alles andere war Chaos.",
+    "timeline2023Text": "Erste Charge in einer gemieteten Garage in Gent. Drei Kumpel, eine Presse, null Ahnung. Der Cider war trocken. Alles andere war Chaos.",
     "timeline2024Title": "Erste Bars",
-    "timeline2024Text": "Lokale Bars und Festivals in Gent. Die Leute fragten nach 'dem Trockenen.' Wir nahmen das als Kompliment.",
+    "timeline2024Text": "Lokale Bars und Festivals in Gent. Leute fragten nach ‚dem Trockenen.' Wir nahmen das als Kompliment.",
     "timeline2025Title": "Vier Cider",
     "timeline2025Text": "Haze, Cassis und Ginger neben Original gelauncht. Expansion in ganz Belgien. Immer noch kein Zucker. Immer noch keine Abkürzungen.",
     "timeline2026Title": "Über Belgien hinaus",
-    "timeline2026Text": "Benelux-weiter Vertrieb. Expansion nach Deutschland und Frankreich. Dieselben vier Zutaten. Größere Landkarte.",
+    "timeline2026Text": "Vertrieb im ganzen Benelux. Expansion nach Deutschland und Frankreich. Dieselben vier Zutaten. Größere Landkarte.",
     "valuesTitle": "Woran wir glauben",
     "valuesSubtitle": "Kein Manifest. Einfach wie wir arbeiten.",
     "value1Title": "Trocken oder gar nicht",
-    "value1Text": "Wir vergären alles komplett. Null Restzucker. Wenn du es süß willst, sind wir nicht deine Marke. Und das ist okay.",
+    "value1Text": "Wir vergären alles komplett. Null Restzucker. Wenn du süß willst, sind wir nicht deine Marke. Und das ist okay.",
     "value2Title": "Vier Zutaten",
-    "value2Text": "Äpfel, Wasser, Hefe und die jeweilige Zutat nach der Gärung. Das ist die Liste. Wir könnten sie kürzer machen, aber dann hätten wir Apfelsaft.",
+    "value2Text": "Äpfel, Wasser, Hefe und die jeweilige Zutat nach der Gärung. Das ist die Liste. Kürzer geht's nur mit Apfelsaft.",
     "value3Title": "Design zählt",
-    "value3Text": "Das Branding ist so minimal wie das Produkt. Keine Craft-Klischees. Kein Jutestoff. Nichts Handgezeichnetes. Wir sehen aus, wie wir schmecken — reduziert.",
+    "value3Text": "Branding so minimal wie das Produkt. Keine Craft-Klischees. Kein Jutestoff. Nichts Handgezeichnetes. Wir sehen aus, wie wir schmecken — auf das Wesentliche reduziert.",
     "value4Title": "Lokal zuerst",
-    "value4Text": "Flämische Äpfel von kleinen Obstgärten. Die Art, die Google Maps nicht kennt. Wir kaufen lokal, weil lokal besser ist, nicht weil es ein Marketing-Gag ist."
+    "value4Text": "Flämische Äpfel von kleinen Obstgärten. Die Art, die Google Maps nicht kennt. Wir kaufen lokal, weil lokal besser ist — nicht weil's gut auf dem Etikett aussieht."
   },
   "FindUsPage": {
     "title": "Verkaufsstellen",
     "description": "Finde BRUT. trockenen Craft Cider in Bars, Restaurants und Getränkemärkten in Belgien, den Niederlanden, Deutschland und Frankreich.",
     "ogTitle": "Verkaufsstellen — BRUT.",
     "heading": "BRUT. finden",
-    "subtitle": "Du findest uns in Bars, denen es nicht egal ist. Nicht in Automaten.",
+    "subtitle": "In Bars, denen es nicht egal ist. Nicht im Automaten.",
     "stockCta": "BRUT. ins Sortiment nehmen?",
-    "stockLink": "Kontaktiere uns.",
+    "stockLink": "Meld dich.",
     "loadingMap": "Karte wird geladen...",
     "typeBar": "Bar",
     "typeRestaurant": "Restaurant",
@@ -252,12 +255,12 @@
     "typeBottleShop": "Getränkemarkt"
   },
   "ContactPage": {
-    "title": "Kontakt BRUT Cider",
-    "description": "Schreib uns. Wir lesen jede Nachricht. Wir antworten nicht immer schnell, aber immer ehrlich.",
-    "ogTitle": "Kontakt BRUT Cider",
+    "title": "Kontakt BRUT. Cider",
+    "description": "Schreib uns. Wir lesen jede Nachricht. Nicht immer schnell, aber immer ehrlich.",
+    "ogTitle": "Kontakt BRUT. Cider",
     "label": "Kontakt",
     "heading": "Sag was.",
-    "subtitle": "Wir lesen jede Nachricht. Wir antworten nicht immer schnell, aber immer ehrlich.",
+    "subtitle": "Wir lesen jede Nachricht. Nicht immer schnell, aber immer ehrlich.",
     "nameLabel": "Name",
     "namePlaceholder": "Dein Name",
     "emailLabel": "E-Mail",
@@ -265,9 +268,9 @@
     "messageLabel": "Nachricht",
     "messagePlaceholder": "Was liegt dir auf dem Herzen?",
     "submit": "Nachricht senden",
-    "demoDisclaimer": "Dies ist ein Demo-Formular. Es werden keine Daten gesendet.",
+    "demoDisclaimer": "Demo-Formular. Es werden keine Daten gesendet.",
     "successTitle": "Nachricht erhalten.",
-    "successText": "Na ja, nicht wirklich. Das hier ist eine Demo. Aber im echten Leben würden wir uns bei dir melden."
+    "successText": "Na ja, nicht wirklich. Das ist eine Demo. Aber im echten Leben würden wir uns melden."
   },
   "LanguageSwitcher": {
     "en": "EN",

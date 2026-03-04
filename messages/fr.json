@@ -2,9 +2,9 @@
   "Metadata": {
     "title": "BRUT. — Cidre sec artisanal de Gand",
     "titleTemplate": "%s | BRUT.",
-    "description": "Rien d'ajouté. Rien à cacher. Cidre sec artisanal à base de pommes flamandes. Zéro sucre. Maximum de goût.",
+    "description": "Rien d'ajouté. Rien à cacher. Cidre sec artisanal de pommes flamandes. Zéro sucre. Tout le goût.",
     "keywords": "cidre artisanal, cidre sec, cidre belge, pommes flamandes, cidre sans sucre, cidre de Gand, cidre brut, BRUT cidre",
-    "ogImageAlt": "BRUT. Cidre sec artisanal - Quatre saveurs sur glace"
+    "ogImageAlt": "BRUT. Cidre sec artisanal — quatre variantes sur glace"
   },
   "Navigation": {
     "products": "Produits",
@@ -14,30 +14,30 @@
     "home": "Accueil",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "logoAlt": "BRUT Cidre sec artisanal - Logo"
+    "logoAlt": "BRUT. Cidre sec artisanal — logo"
   },
   "Footer": {
-    "logoAlt": "BRUT Cidre sec artisanal de Gand, Belgique",
+    "logoAlt": "BRUT. Cidre sec artisanal de Gand, Belgique",
     "description": "Cidre sec artisanal de Gand, Belgique. Rien d'ajouté. Rien à cacher.",
     "brewedIn": "Brassé à Gand.",
-    "notForEveryone": "Pas fait pour tout le monde.",
+    "notForEveryone": "Pas pour tout le monde.",
     "copyright": "© {year} BRUT. Tous droits réservés.",
-    "responsible": "À consommer avec modération. Réservé aux 18 ans et plus.",
+    "responsible": "À consommer avec modération. 18+ uniquement.",
     "demoLabel": "Projet démo :",
-    "demoText": "Ce site est un projet de démonstration créé à des fins pédagogiques et de portfolio. BRUT. n'est ni une entreprise ni un produit réel."
+    "demoText": "Ce site est un projet de démonstration à des fins pédagogiques et de portfolio. BRUT. n'est ni une entreprise ni un produit réel."
   },
   "AgeGate": {
-    "logoAlt": "BRUT Cidre artisanal - Logo",
-    "question": "Avez-vous 18 ans ou plus ?",
-    "subtitle": "Vous devez avoir l'âge légal pour entrer.",
+    "logoAlt": "BRUT. Cidre artisanal — logo",
+    "question": "Vous avez 18 ans ou plus ?",
+    "subtitle": "L'âge légal est requis pour entrer.",
     "yes": "Oui",
     "no": "Non",
-    "denied": "Désolé, vous devez avoir 18 ans ou plus.",
+    "denied": "Désolé, il faut avoir 18 ans minimum.",
     "deniedSub": "Revenez quand vous aurez l'âge. On sera là."
   },
   "DemoNotice": {
     "label": "Site de démo :",
-    "text": "Ceci est un projet de démonstration créé à des fins pédagogiques. Ce n'est pas une entreprise réelle.",
+    "text": "Projet de démonstration à des fins pédagogiques. Pas une entreprise réelle.",
     "dismiss": "Fermer l'avis"
   },
   "HomePage": {
@@ -45,17 +45,17 @@
     "heroSubtitle": "Cidre sec artisanal de Gand, Belgique.",
     "heroCta": "Découvrir nos cidres",
     "heroImageAlt": "Canettes de cidre artisanal BRUT. sur glace",
-    "introTitle": "On fait du cidre.\nDu cidre sec. C'est tout.",
-    "introText": "Quatre ingrédients. On pourrait les lister, mais vous allez décrocher. Pommes flamandes, eau, levure, et rien d'autre. Fermenté à sec. Zéro sucre. Zéro raccourci. Zéro excuse.",
+    "introTitle": "On fait du cidre.\nDu cidre sec. Point.",
+    "introText": "Quatre ingrédients. Pommes flamandes, eau, levure, et rien d'autre. Fermenté à sec. Zéro sucre. Zéro raccourci. Zéro excuse.",
     "gridTitle": "Quatre cidres. Zéro remplissage.",
-    "gridSubtitle": "Pas de saveurs saisonnières. Quatre produits, bien faits.",
+    "gridSubtitle": "Pas d'éditions saisonnières. Quatre produits, bien faits.",
     "buyTitle": "Commander BRUT.",
-    "buySubtitle": "Dans les bars qui ont du goût. Et en ligne pour ceux qui préfèrent rester chez eux.",
+    "buySubtitle": "Dans les bars qui ont du goût. Et en ligne pour ceux qui préfèrent le canapé.",
     "shopButton": "Acheter {name}",
     "freeShipping": "Livraison gratuite dès 40 €. Belgique, Pays-Bas, Allemagne, France.",
     "philosophyLabel": "Notre philosophie",
     "philosophyTitle": "Né dans un garage.\nToujours zéro sucre.",
-    "philosophyText": "Trois amis de Gand. Formés en design et hôtellerie, zéro expérience en brassage. Ils voulaient une boisson à leur image : nette, sans sucre, sans blabla.",
+    "philosophyText": "Trois potes de Gand. Design et hôtellerie dans le sang, zéro expérience en brassage. Ils voulaient une boisson à leur image — nette, sans sucre, sans baratin.",
     "philosophyCta": "Lire notre histoire"
   },
   "ProductsPage": {
@@ -63,20 +63,20 @@
     "description": "Quatre cidres secs. Zéro remplissage. Zéro sucre. Rien d'ajouté.",
     "ogTitle": "Nos cidres — BRUT.",
     "heading": "Nos cidres",
-    "subtitle": "Pas de saveurs saisonnières. Quatre produits, bien faits.",
+    "subtitle": "Pas d'éditions saisonnières. Quatre produits, bien faits.",
     "abvLabel": "Alc."
   },
   "ProductDetail": {
-    "lifestyleAlt": "Cidre sec artisanal {name} - photo lifestyle",
-    "productAlt": "{name} - {tagline} - Cidre sec de Belgique",
-    "productCardAlt": "{name} - {tagline} - Canette de cidre sec artisanal",
+    "lifestyleAlt": "{name} cidre sec artisanal — photo lifestyle",
+    "productAlt": "{name} — {tagline} — Cidre sec de Belgique",
+    "productCardAlt": "{name} — {tagline} — Canette de cidre sec artisanal",
     "galleryAlt": "{name} cidre sec artisanal en situation",
     "flavorProfileLabel": "Profil aromatique",
     "base": "Base",
     "tasteJourney": "Parcours gustatif",
     "sweetness": "Sucrosité",
     "mouthfeel": "Bouche",
-    "notLike": "Ne ressemble pas à",
+    "notLike": "Pas comme",
     "moreLike": "Plutôt comme",
     "specsLabel": "Fiche technique",
     "specsTitle": "Les détails",
@@ -91,11 +91,14 @@
     "copyWhatItIs": "Ce que c'est",
     "copyWhyDry": "Pourquoi sec",
     "copyHowWeMake": "Comment on le fait",
-    "copyWhoItsFor": "À qui ça s'adresse",
+    "copyWhoItsFor": "Pour qui",
     "ctaTitle": "Envie de goûter {name} ?",
-    "ctaSubtitle": "Trouvez-le dans un bar près de chez vous ou commandez en ligne.",
+    "ctaSubtitle": "Dans un bar près de chez vous ou en ligne.",
     "ctaFindStockist": "Trouver un point de vente",
     "ctaOrderOnline": "Commander en ligne",
+    "socialLabel": "Sur les Réseaux",
+    "socialTitle": "Vu sur @brut.cider",
+    "socialAlt": "{name} visuel de campagne sur les réseaux sociaux",
     "ciderSuffix": "Cidre",
     "ogSuffix": "Cidre — BRUT."
   },
@@ -103,55 +106,55 @@
     "original": {
       "name": "Original",
       "fullName": "BRUT. Original",
-      "tagline": "Zéro sucre. Maximum de goût.",
-      "personality": "Le fondateur",
+      "tagline": "Zéro sucre. Tout le goût.",
+      "personality": "La base",
       "sweetness": "Extra sec",
       "carbonation": "Élevée",
       "body": "Léger",
       "character": "Net, précis",
       "bestFor": "Toute la soirée",
-      "heroMessage": "Zéro sucre. Maximum de goût.",
-      "heroSub": "Celui qui a tout lancé. Celui qui compte encore.",
+      "heroMessage": "Zéro sucre. Tout le goût.",
+      "heroSub": "Celui par qui tout a commencé. Et celui qui compte toujours.",
       "flavorProfile": {
         "base": "Pommes flamandes monovariétales (principalement Jonagold), fermentées à sec",
         "tasteJourney": "Pomme croquante en attaque — minéralité en milieu de bouche — finale sèche avec un tanin subtil",
-        "sweetnessLevel": "Zéro sucre résiduel — complètement sec, presque comme un champagne",
-        "mouthfeel": "Carbonatation élevée, corps léger, acidité rafraîchissante",
+        "sweetnessLevel": "Zéro sucre résiduel — sec jusqu'à l'os, presque un champagne",
+        "mouthfeel": "Carbonatation vive, corps léger, acidité tranchante",
         "notLike": "Cidres doux industriels, cidre plat, jus de pomme alcoolisé",
-        "moreLike": "Un champagne sec rencontre une pomme acidulée. Net, sans compromis, précis."
+        "moreLike": "Champagne sec avec une touche de pomme. Net, sans compromis, précis."
       },
       "copyBlocks": {
-        "whatItIs": "Des pommes flamandes fermentées jusqu'au bout. Carbonatation élevée. Zéro sucre résiduel. Le goût du cidre quand on arrête de le travestir.",
-        "whyItMatters": "La plupart des cidres rajoutent du sucre après fermentation. Pas nous. Sec, ça veut dire qu'on goûte les pommes, pas l'édulcorant. Sec, c'est pouvoir en boire trois sans se sentir lourd. Sec, c'est honnête.",
-        "howWeMakeIt": "Presser les pommes. Fermenter jusqu'à épuisement du sucre. Carbonater fort. Mettre en canette à froid. Quatre ingrédients. Une philosophie. Rien d'ajouté. Rien à cacher.",
-        "whoItsFor": "Pour ceux qui boivent du vin sec, pas du moscato. De l'espresso, pas du frappuccino. Ceux qui savent déjà ce qu'ils aiment."
+        "whatItIs": "Des pommes flamandes fermentées jusqu'au bout. Carbonatation vive. Zéro sucre résiduel. Le goût du cidre quand on arrête de le déguiser en limonade.",
+        "whyItMatters": "La plupart des cidres remettent du sucre après fermentation. Pas nous. Sec, c'est goûter la pomme, pas l'édulcorant. Sec, c'est en boire trois sans se sentir lourd. Sec, c'est honnête.",
+        "howWeMakeIt": "Presser les pommes. Fermenter jusqu'à épuisement total du sucre. Carbonater à fond. Mettre en canette à froid. Quatre ingrédients. Un principe. Rien d'ajouté. Rien à cacher.",
+        "whoItsFor": "Pour ceux qui boivent du vin sec, pas du moscato. De l'espresso, pas du frappuccino. Ceux qui savent déjà ce qu'ils veulent."
       }
     },
     "haze": {
       "name": "Haze",
       "fullName": "BRUT. Haze",
-      "tagline": "Trouble, sans compromis.",
+      "tagline": "Trouble. Sans compromis.",
       "personality": "Le rebelle",
       "sweetness": "Demi-sec",
       "carbonation": "Moyenne",
       "body": "Moyen",
       "character": "Texturé, ample",
       "bestFor": "À table",
-      "heroMessage": "Trouble, sans compromis.",
-      "heroSub": "Non filtré. Demi-sec. Plein de caractère.",
+      "heroMessage": "Trouble. Sans compromis.",
+      "heroSub": "Non filtré. Demi-sec. Du caractère dès la première gorgée.",
       "flavorProfile": {
         "base": "Assemblage de pommes flamandes acidulées (dominante Boskoop), non filtré",
-        "tasteJourney": "Saveur de pomme plus ample en attaque — milieu de bouche crémeux grâce aux solides en suspension — finale demi-sèche avec des tanins de peau de pomme",
+        "tasteJourney": "Pomme ample en attaque — milieu de bouche crémeux grâce aux solides — finale demi-sèche avec tanins de peau de pomme",
         "sweetnessLevel": "Demi-sec (sucre résiduel minimal) — le trouble ajoute du corps, pas du sucre",
-        "mouthfeel": "Carbonatation moyenne, corps plus ample, légère onctuosité grâce aux levures en suspension",
+        "mouthfeel": "Carbonatation moyenne, corps ample, onctuosité légère des levures en suspension",
         "notLike": "Jus de pomme trouble, cidres doux non filtrés, IPA troublées",
-        "moreLike": "Un vin nature avec son dépôt. Un saké non pasteurisé. Un trouble volontaire qui ajoute du caractère."
+        "moreLike": "Vin nature avec son dépôt. Saké non pasteurisé. Trouble assumé qui ajoute du caractère."
       },
       "copyBlocks": {
-        "whatItIs": "Cidre non filtré à base de pommes flamandes acidulées. On garde les particules. Elles ajoutent du corps, de la texture et une saveur de pomme plus intense. Le trouble n'est pas une erreur. C'est le but.",
-        "whyItMatters": "Filtrer rend le cidre limpide. Ça lui retire aussi sa saveur, sa texture et son caractère. On préfère un cidre trouble qui a le goût de pomme qu'un liquide cristallin qui ne goûte rien. La clarté est surévaluée.",
-        "howWeMakeIt": "Presser des pommes acidulées. Fermenter en demi-sec. Sauter l'étape de filtration que tout le monde fait. Mettre en canette tel quel. Ce qu'on perd en esthétique Instagram, on le gagne en saveur.",
-        "whoItsFor": "Pour les amateurs de vin nature. Pour ceux qui commandent la bière la plus trouble. Pour tous ceux qui préfèrent le fond à la forme."
+        "whatItIs": "Cidre non filtré de pommes flamandes acidulées. On garde les particules. Elles ajoutent du corps, de la texture, un goût de pomme plus profond. Le trouble n'est pas un défaut. C'est le point.",
+        "whyItMatters": "La filtration rend le cidre limpide. Elle lui enlève aussi le goût, la texture et le caractère. On préfère un cidre trouble qui a du goût qu'un liquide cristallin sans âme. La clarté est surévaluée.",
+        "howWeMakeIt": "Presser des pommes acidulées. Fermenter en demi-sec. Sauter la filtration — cette étape dont tout le monde est si fier. Mettre en canette trouble. Ce qu'on perd en esthétique Instagram, on le gagne en saveur.",
+        "whoItsFor": "Pour les fans de vin nature. Ceux qui commandent la bière la plus trouble du menu. Tous ceux qui préfèrent le fond à la forme."
       }
     },
     "cassis": {
@@ -167,84 +170,84 @@
       "heroMessage": "Fruits noirs. Finale sèche.",
       "heroSub": "Le cassis rencontre la pomme sèche. Zéro sucre entre les deux.",
       "flavorProfile": {
-        "base": "Pommes flamandes fermentées à sec, avec jus de cassis ajouté après fermentation",
-        "tasteJourney": "Fruits noirs en attaque — pomme acidulée en milieu de bouche — finale sèche avec des tanins de cassis",
+        "base": "Pommes flamandes fermentées à sec, jus de cassis ajouté après fermentation",
+        "tasteJourney": "Fruits noirs en attaque — pomme acidulée en milieu de bouche — finale sèche avec tanins de cassis",
         "sweetnessLevel": "Extra sec — le cassis apporte de l'acidité et de la couleur, pas du sucre",
         "mouthfeel": "Carbonatation moyenne, légère astringence tannique du cassis",
         "notLike": "Cidres aux fruits sucrés, bières fruitées, rosé, sangria",
-        "moreLike": "Un vermouth sec rencontre des baies acidulées. De la crème de cassis sans le sucre. Concentré mais pas sucré."
+        "moreLike": "Vermouth sec et baies acidulées. Crème de cassis sans le sucre. Concentré, pas sucré."
       },
       "copyBlocks": {
-        "whatItIs": "Cidre sec infusé au jus de cassis belge. Pas un cidre aux fruits sucré. Pas un rosé. Des fruits noirs acidulés sur une base de pomme sèche. De la complexité sans sucre ajouté.",
-        "whyItMatters": "Le cassis est naturellement acide, pas sucré. Il apporte de la profondeur, de la couleur et une structure tannique sans avoir besoin de sucre pour l'équilibrer. On l'associe à la pomme sèche parce que les deux tiennent seuls. Ensemble, c'est encore mieux.",
-        "howWeMakeIt": "Fermenter les pommes complètement à sec. Ajouter le jus de cassis après fermentation. Laisser l'acidité des deux ingrédients parler. Mettre en canette à froid. Zéro sucre ajouté à aucune étape.",
-        "whoItsFor": "Pour ceux qui boivent du Campari, pas de l'Aperol. Du vermouth sec, pas du sucré. Ceux qui cherchent de la complexité, pas du réconfort."
+        "whatItIs": "Cidre sec au jus de cassis belge. Pas un cidre aux fruits sucré. Pas un rosé. Fruits noirs acidulés sur base de pomme sèche. De la complexité sans un gramme de sucre ajouté.",
+        "whyItMatters": "Le cassis est naturellement acide, pas sucré. Il apporte profondeur, couleur et tannins — sans sucre pour l'équilibrer. On l'associe à la pomme sèche parce que les deux tiennent seuls. Ensemble, c'est mieux.",
+        "howWeMakeIt": "Fermenter les pommes à sec. Ajouter le jus de cassis après fermentation. Laisser l'acidité des deux parler. Mettre en canette à froid. Zéro sucre ajouté. À aucune étape.",
+        "whoItsFor": "Pour ceux qui boivent du Campari, pas de l'Aperol. Du vermouth sec, pas du sucré. Pour ceux qui cherchent la complexité, pas le confort."
       }
     },
     "ginger": {
       "name": "Ginger",
       "fullName": "BRUT. Ginger",
-      "tagline": "Ça pique un peu. Et c'est tant mieux.",
+      "tagline": "Ça pique un peu. C'est fait pour.",
       "personality": "Le provocateur",
       "sweetness": "Extra sec",
       "carbonation": "Moyenne",
       "body": "Léger",
-      "character": "Chaleureux, audacieux",
-      "bestFor": "Électro-choc",
-      "heroMessage": "Ça pique un peu. Et c'est tant mieux.",
+      "character": "Chaleureux, franc",
+      "bestFor": "Électrochoc",
+      "heroMessage": "Ça pique un peu. C'est fait pour.",
       "heroSub": "Cidre sec. Vrai gingembre. Zéro excuse.",
       "flavorProfile": {
-        "base": "Pommes flamandes fermentées à sec (assemblage Jonagold, Boskoop)",
-        "tasteJourney": "Pomme nette en attaque — chaleur du gingembre qui monte en milieu de bouche — finale vive et sèche avec une épice persistante",
-        "sweetnessLevel": "Extra sec (0g de sucre résiduel) — le gingembre apporte du piquant, pas du sucre",
-        "mouthfeel": "Carbonatation moyenne, légèrement réchauffant grâce aux huiles de gingembre",
-        "notLike": "Ginger beer (trop sucrée), Moscow Mule (trop sucré), shot de gingembre (trop agressif)",
-        "moreLike": "Le gingembre qu'on goûte vraiment dans un bon sushi. La brûlure qui vous réveille."
+        "base": "Pommes flamandes fermentées à sec (assemblage Jonagold-Boskoop)",
+        "tasteJourney": "Pomme nette en attaque — chaleur du gingembre qui monte en milieu de bouche — finale vive et sèche avec une épice qui persiste",
+        "sweetnessLevel": "Extra sec (0g de sucre résiduel) — le gingembre apporte du feu, pas du sucre",
+        "mouthfeel": "Carbonatation moyenne, chaleur agréable des huiles de gingembre",
+        "notLike": "Ginger beer (trop sucrée), Moscow Mule (bombe de sucre), shot de gingembre (trop brutal)",
+        "moreLike": "Le gingembre qu'on goûte vraiment dans un bon sushi. La brûlure qui réveille."
       },
       "copyBlocks": {
         "whatItIs": "Cidre sec au jus de gingembre frais. Pas d'extrait. Pas de sirop. Le genre de gingembre qu'on sent dans la poitrine, pas dans les dents.",
-        "whyItMatters": "La plupart des boissons au gingembre cachent le piquant derrière du sucre. Nous, on le laisse faire. Base extra sèche. Vrai piquant de gingembre. Rien pour le freiner.",
-        "howWeMakeIt": "Fermenter les pommes complètement à sec. Ajouter du jus de gingembre frais après fermentation. Mettre en canette à froid. C'est la recette. C'est aussi la seule façon de bien le faire.",
-        "whoItsFor": "Pas un cidre pour débuter. Pas un choix prudent. Pour ceux qui veulent que leurs boissons aient du caractère."
+        "whyItMatters": "La plupart des boissons au gingembre cachent le piquant derrière du sucre. Nous, on le laisse faire. Base extra sèche. Vrai feu du gingembre. Rien pour le freiner.",
+        "howWeMakeIt": "Fermenter les pommes à sec. Ajouter du jus de gingembre frais après fermentation. Mettre en canette à froid. C'est la recette. Et la seule façon de bien le faire.",
+        "whoItsFor": "Pas un cidre pour débuter. Pas un choix prudent. Pour ceux qui veulent que leurs boissons aient une opinion."
       }
     }
   },
   "OurStoryPage": {
     "title": "Notre histoire",
-    "description": "Trois amis de Gand. Formés en design et hôtellerie, zéro expérience en brassage. Nés dans un garage. Toujours zéro sucre.",
+    "description": "Trois potes de Gand. Design et hôtellerie dans le sang, zéro expérience en brassage. Nés dans un garage. Toujours zéro sucre.",
     "ogTitle": "Notre histoire — BRUT.",
     "label": "Notre histoire",
-    "heading": "Trois amis.\nUn garage.\nZéro expérience.",
+    "heading": "Trois potes.\nUn garage.\nZéro expérience.",
     "foundersImageAlt": "Roos, Sander et Wout — fondateurs de BRUT.",
-    "foundersParagraph1": "Lancé par Roos, Sander et Wout dans un garage à Gand. Formés en design et hôtellerie, zéro expérience en brassage. Ils voulaient une boisson à leur image : nette, sans sucre, sans blabla.",
-    "foundersParagraph2": "La Belgique a une culture bière incroyable, mais ils ont vu un manque : personne ne faisait du cidre avec le goût et le look de 2026. Ils s'approvisionnent en pommes dans de petits vergers flamands, fermentent tout à sec, et gardent la liste d'ingrédients honteusement courte.",
+    "foundersParagraph1": "Roos, Sander et Wout ont lancé BRUT. dans un garage à Gand. Design et hôtellerie dans le sang, zéro expérience en brassage. Ils voulaient une boisson à leur image — nette, sans sucre, sans baratin.",
+    "foundersParagraph2": "La Belgique a une culture bière incroyable, mais personne ne faisait de cidre avec le look et le goût de 2026. Ils s'approvisionnent dans de petits vergers flamands, fermentent tout à sec, et gardent la liste d'ingrédients honteusement courte.",
     "timeline2023Title": "Le garage",
-    "timeline2023Text": "Premier brassin dans un garage loué à Gand. Trois amis, un pressoir, aucune idée de ce qu'ils faisaient. Le cidre était sec. Tout le reste était du chaos.",
+    "timeline2023Text": "Premier brassin dans un garage loué à Gand. Trois potes, un pressoir, aucune idée de ce qu'ils faisaient. Le cidre était sec. Le reste, c'était le chaos.",
     "timeline2024Title": "Premiers bars",
     "timeline2024Text": "Bars et festivals à Gand. Les gens ont commencé à demander « le sec ». On a pris ça comme un compliment.",
     "timeline2025Title": "Quatre cidres",
-    "timeline2025Text": "Lancement de Haze, Cassis et Ginger aux côtés d'Original. Expansion en Belgique. Toujours zéro sucre. Toujours zéro raccourci.",
+    "timeline2025Text": "Haze, Cassis et Ginger rejoignent Original. Expansion en Belgique. Toujours zéro sucre. Toujours zéro raccourci.",
     "timeline2026Title": "Au-delà de la Belgique",
-    "timeline2026Text": "Distribution Benelux. Lancement en Allemagne et en France. Les mêmes quatre ingrédients. Une carte plus grande.",
+    "timeline2026Text": "Distribution Benelux. Lancement Allemagne et France. Les mêmes quatre ingrédients. Une carte plus grande.",
     "valuesTitle": "Ce en quoi on croit",
-    "valuesSubtitle": "Pas un manifeste. Juste notre façon de travailler.",
+    "valuesSubtitle": "Pas un manifeste. Juste notre façon de faire.",
     "value1Title": "Sec ou rien",
-    "value1Text": "On fermente tout jusqu'au bout. Zéro sucre résiduel. Si vous voulez du sucré, on n'est pas votre marque. Et c'est très bien comme ça.",
+    "value1Text": "On fermente tout jusqu'au bout. Zéro sucre résiduel. Vous voulez du sucré ? On n'est pas votre marque. Et c'est très bien.",
     "value2Title": "Quatre ingrédients",
-    "value2Text": "Pommes, eau, levure, et l'ajout post-fermentation qui définit chaque variante. C'est la liste. On pourrait la raccourcir, mais on aurait du jus de pomme.",
+    "value2Text": "Pommes, eau, levure, et l'ajout post-fermentation de chaque variante. C'est la liste. On pourrait la raccourcir, mais on aurait du jus de pomme.",
     "value3Title": "Le design compte",
-    "value3Text": "Le branding est aussi minimaliste que le produit. Zéro cliché artisanal. Pas de toile de jute. Pas de dessin à la main. On a le look de ce qu'on a en bouche : épuré.",
+    "value3Text": "Le branding est aussi minimaliste que le produit. Zéro cliché artisanal. Pas de toile de jute. Pas de typo manuscrite. On a le look de ce qu'on a en bouche — épuré.",
     "value4Title": "Le local d'abord",
-    "value4Text": "Pommes flamandes de petits vergers. Ceux que Google Maps ne connaît pas. On achète local parce que le local est meilleur, pas parce que ça fait bien en marketing."
+    "value4Text": "Pommes flamandes de petits vergers. Ceux que Google Maps ne connaît pas. On achète local parce que local est meilleur — pas pour faire joli sur l'étiquette."
   },
   "FindUsPage": {
     "title": "Points de vente",
     "description": "Trouvez le cidre sec artisanal BRUT. dans les bars, restaurants et cavistes en Belgique, Pays-Bas, Allemagne et France.",
     "ogTitle": "Points de vente — BRUT.",
     "heading": "Trouver BRUT.",
-    "subtitle": "On est dans les bars qui ont du goût. Pas dans les distributeurs automatiques.",
+    "subtitle": "Dans les bars qui ont du goût. Pas dans les distributeurs.",
     "stockCta": "Vous voulez vendre BRUT. ?",
-    "stockLink": "Contactez-nous.",
+    "stockLink": "Écrivez-nous.",
     "loadingMap": "Chargement de la carte...",
     "typeBar": "Bar",
     "typeRestaurant": "Restaurant",
@@ -252,12 +255,12 @@
     "typeBottleShop": "Caviste"
   },
   "ContactPage": {
-    "title": "Contact BRUT Cidre",
-    "description": "Contactez BRUT. On lit chaque message. On ne répond pas toujours vite, mais on répond sincèrement.",
-    "ogTitle": "Contact BRUT Cidre",
+    "title": "Contact BRUT. Cidre",
+    "description": "Écrivez-nous. On lit chaque message. Pas toujours rapides, mais toujours sincères.",
+    "ogTitle": "Contact BRUT. Cidre",
     "label": "Contact",
-    "heading": "Dites-nous quelque chose.",
-    "subtitle": "On lit chaque message. On ne répond pas toujours vite, mais on répond sincèrement.",
+    "heading": "Dites quelque chose.",
+    "subtitle": "On lit chaque message. Pas toujours rapides, mais toujours francs.",
     "nameLabel": "Nom",
     "namePlaceholder": "Votre nom",
     "emailLabel": "E-mail",
@@ -265,7 +268,7 @@
     "messageLabel": "Message",
     "messagePlaceholder": "Qu'est-ce qui vous passe par la tête ?",
     "submit": "Envoyer",
-    "demoDisclaimer": "Ceci est un formulaire de démo. Aucune donnée n'est envoyée.",
+    "demoDisclaimer": "Formulaire de démo. Aucune donnée envoyée.",
     "successTitle": "Message reçu.",
     "successText": "Enfin, pas vraiment. C'est une démo. Mais en vrai, on vous aurait répondu."
   },

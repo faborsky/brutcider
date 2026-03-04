@@ -96,6 +96,9 @@
     "ctaSubtitle": "Find it at a bar near you or order online.",
     "ctaFindStockist": "Find a stockist",
     "ctaOrderOnline": "Order online",
+    "socialLabel": "On Social",
+    "socialTitle": "As seen on @brut.cider",
+    "socialAlt": "{name} social media campaign image",
     "ciderSuffix": "Cider",
     "ogSuffix": "Cider — BRUT."
   },

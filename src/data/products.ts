@@ -7,6 +7,7 @@ export interface Product {
     transparent: string;
     lifestyle: string;
     gallery: string[];
+    socialGallery?: string[];
   };
 }
 
@@ -23,8 +24,6 @@ export const products: Product[] = [
         "/images/lifestyle/lifestyle_01_rooftop_original_16x9_1K_20260208_153003.webp",
         "/images/lifestyle/lifestyle_05_firepit_original_16x9_1K_20260208_153121.webp",
         "/images/lifestyle/lifestyle_09_skate_original_16x9_1K_20260208_153231.webp",
-        "/images/web-hero/web_hero_01_rooftop_original_16x9_1K_20260208_155401.webp",
-        "/images/web-hero/web_hero_05_cafe_original_16x9_1K_20260208_155513.webp",
       ],
     },
   },
@@ -53,9 +52,9 @@ export const products: Product[] = [
       transparent: "/images/products/transparent/cassis.webp",
       lifestyle: "/images/products/lifestyle/brut_cassis_lifestyle_1x1_1K_20260210_082410.webp",
       gallery: [
-        "/images/lifestyle/lifestyle_03_bar_cassis_16x9_1K_20260208_153044.webp",
-        "/images/lifestyle/lifestyle_07_balcony_cassis_16x9_1K_20260208_153155.webp",
         "/images/web-hero/web_hero_03_steps_cassis_16x9_1K_20260208_155437.webp",
+        "/images/lifestyle/lifestyle_05_firepit_original_16x9_1K_20260208_153121.webp",
+        "/images/lifestyle/lifestyle_08_festival_haze_16x9_1K_20260208_153213.webp",
       ],
     },
   },
@@ -67,12 +66,14 @@ export const products: Product[] = [
     images: {
       transparent: "/images/products/transparent/ginger.webp",
       lifestyle: "/images/products/lifestyle/brut_ginger_lifestyle_1x1_1K_20260210_082427.webp",
-      gallery: [
-        "/images/lifestyle/lifestyle_02_steps_ginger_16x9_1K_20260208_153022.webp",
-        "/images/lifestyle/lifestyle_06_cafe_ginger_16x9_1K_20260208_153138.webp",
-        "/images/lifestyle/lifestyle_10_picnic_ginger_16x9_1K_20260208_153248.webp",
-        "/images/web-hero/web_hero_02_bar_ginger_16x9_1K_20260208_155419.webp",
-        "/images/web-hero/web_hero_06_picnic_ginger_16x9_1K_20260208_155531.webp",
+      gallery: [],
+      socialGallery: [
+        "/images/ads/ginger_ad_01_condensation_1x1_1K_20260207_125903.webp",
+        "/images/ads/ginger_ad_03_hand_minimal_1x1_1K_20260207_125939.webp",
+        "/images/ads/ginger_ad_04_shadow_play_1x1_1K_20260207_125957.webp",
+        "/images/ads/ginger_ad_05_neon_night_1x1_1K_20260207_130017.webp",
+        "/images/ads/ginger_ad_08_motion_blur_1x1_1K_20260207_130110.webp",
+        "/images/ads/ginger_ad_10_reflection_1x1_1K_20260207_130144.webp",
       ],
     },
   },
