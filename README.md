@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BRUT. — Dry Craft Cider Website
+
+> Demo website for a fictional dry craft cider brand from Ghent, Belgium. Built as a reference project for the [Vibe Coding for Marketers](https://www.vibecodingformarketers.com) course.
+
+**Live site:** [brutcider.com](https://www.brutcider.com)
+
+## About
+
+This is a complete, production-quality marketing website built entirely with vibe coding (AI-assisted development using Claude Code). It serves as the demo project for **Lesson 3: A Complete Website** of the Vibe Coding for Marketers course, where students learn to build multi-page websites with animations, SEO, and multilingual support.
+
+Later lessons build on this project:
+- **Lesson 5:** Technical SEO — meta tags, sitemap, structured data
+- **Lesson 7:** Multilingual — adding 6 locales with next-intl
+- **Lesson 9:** Analytics — GTM + GA4 event tracking
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 16 | App Router, SSG, Turbopack |
+| React 19 | UI framework |
+| TypeScript | Strict mode |
+| Tailwind CSS 4 | Styling (`@theme` syntax) |
+| next-intl | 6 locales (EN, NL, FR, DE, PL, CS) |
+| motion | Scroll animations |
+| Leaflet | Stockist map |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone https://github.com/faborsky/brutcider.git
+cd brutcider
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/[locale]/          # All pages (Home, Products, Our Story, Find Us, Contact)
+├── components/            # React components by section
+├── data/                  # Product data, stockist locations
+├── i18n/                  # Internationalization config
+└── lib/                   # Utils, animations, analytics
+messages/                  # Translation files (6 locales, 260+ keys each)
+public/images/             # All images (WebP)
+```
 
-## Learn More
+See [CLAUDE.md](CLAUDE.md) for detailed architecture, conventions, and workflows.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 6-language support with localized URLs
+- SEO-optimized (sitemap, hreflang, Open Graph, canonical URLs)
+- GTM + GA4 analytics with custom event tracking
+- Static generation (54 pages)
+- Age gate, responsive navigation, animated sections
+- Leaflet stockist map
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## For Students
 
-## Deploy on Vercel
+This repo is a companion to the [Vibe Coding for Marketers](https://www.vibecodingformarketers.com) course. The `CLAUDE.md` file contains all the project instructions that Claude Code uses to understand the codebase — study it to learn how to write effective AI project instructions for your own sites.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by [Jindrich Faborsky](https://faborsky.com) with [Claude Code](https://claude.ai/code)
+
+License: MIT

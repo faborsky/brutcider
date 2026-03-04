@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Source/working images (not needed in public repo)
+proverene-obrazky/
+generated_images/
+
+# Local MCP config
+.mcp.json

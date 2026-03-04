@@ -1,16 +1,25 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import Image from "next/image";
 import MobileMenu from "./MobileMenu";
 import LanguageSwitcher from "./LanguageSwitcher";
 
+const subscribeDemoNotice = (callback: () => void) => {
+  window.addEventListener("demo-notice-dismissed", callback);
+  return () => window.removeEventListener("demo-notice-dismissed", callback);
+};
+
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [demoNoticeVisible, setDemoNoticeVisible] = useState(true);
+  const demoNoticeVisible = useSyncExternalStore(
+    subscribeDemoNotice,
+    () => !localStorage.getItem("demo-notice-dismissed"),
+    () => true
+  );
   const pathname = usePathname();
   const t = useTranslations("Navigation");
   const isHome = pathname === "/";
@@ -23,15 +32,6 @@ export default function Navigation() {
   ];
 
   const useDark = !isHome || scrolled;
-
-  useEffect(() => {
-    const dismissed = localStorage.getItem("demo-notice-dismissed");
-    setDemoNoticeVisible(!dismissed);
-
-    const handleDismiss = () => setDemoNoticeVisible(false);
-    window.addEventListener("demo-notice-dismissed", handleDismiss);
-    return () => window.removeEventListener("demo-notice-dismissed", handleDismiss);
-  }, []);
 
   useEffect(() => {
     function handleScroll() {

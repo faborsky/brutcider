@@ -24,7 +24,9 @@
     "copyright": "© {year} BRUT. Všechna práva vyhrazena.",
     "responsible": "Pijte zodpovědně. Pouze 18+.",
     "demoLabel": "Demo projekt:",
-    "demoText": "Tento web je demonstrační projekt vytvořený pro vzdělávací a portfoliové účely. BRUT. není skutečná firma ani produkt."
+    "demoText": "Tento web je demonstrační projekt vytvořený pro vzdělávací a portfoliové účely. BRUT. není skutečná firma ani produkt.",
+    "githubLabel": "Zdrojový kód",
+    "githubLink": "GitHub"
   },
   "AgeGate": {
     "logoAlt": "BRUT. Craft cider — logo",

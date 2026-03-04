@@ -24,7 +24,9 @@
     "copyright": "© {year} BRUT. Alle Rechte vorbehalten.",
     "responsible": "Genieße verantwortungsvoll. Ab 18.",
     "demoLabel": "Demo-Projekt:",
-    "demoText": "Diese Website ist ein Demonstrationsprojekt für Bildungs- und Portfoliozwecke. BRUT. ist kein echtes Unternehmen und kein echtes Produkt."
+    "demoText": "Diese Website ist ein Demonstrationsprojekt für Bildungs- und Portfoliozwecke. BRUT. ist kein echtes Unternehmen und kein echtes Produkt.",
+    "githubLabel": "Quellcode",
+    "githubLink": "GitHub"
   },
   "AgeGate": {
     "logoAlt": "BRUT. Craft Cider — Logo",

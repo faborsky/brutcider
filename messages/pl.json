@@ -24,7 +24,9 @@
     "copyright": "© {year} BRUT. Wszelkie prawa zastrzeżone.",
     "responsible": "Pij odpowiedzialnie. Tylko 18+.",
     "demoLabel": "Projekt demo:",
-    "demoText": "Ta strona jest projektem demonstracyjnym stworzonym w celach edukacyjnych i portfolio. BRUT. nie jest prawdziwą firmą ani produktem."
+    "demoText": "Ta strona jest projektem demonstracyjnym stworzonym w celach edukacyjnych i portfolio. BRUT. nie jest prawdziwą firmą ani produktem.",
+    "githubLabel": "Kod źródłowy",
+    "githubLink": "GitHub"
   },
   "AgeGate": {
     "logoAlt": "BRUT. Craft cydr — logo",

@@ -24,7 +24,9 @@
     "copyright": "© {year} BRUT. Alle rechten voorbehouden.",
     "responsible": "Drink met mate. Alleen 18+.",
     "demoLabel": "Demoproject:",
-    "demoText": "Deze website is een demonstratieproject, gemaakt voor educatieve en portfoliodoeleinden. BRUT. is geen echt bedrijf of product."
+    "demoText": "Deze website is een demonstratieproject, gemaakt voor educatieve en portfoliodoeleinden. BRUT. is geen echt bedrijf of product.",
+    "githubLabel": "Broncode",
+    "githubLink": "GitHub"
   },
   "AgeGate": {
     "logoAlt": "BRUT. Craft Cider — logo",

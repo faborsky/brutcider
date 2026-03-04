@@ -54,6 +54,17 @@ export default function Footer() {
             <p className="mt-4 text-xs border-t border-softgrey/20 pt-4">
               <strong>{t("demoLabel")}</strong> {t("demoText")}
             </p>
+            <p className="mt-2 text-xs">
+              {t("githubLabel")}:{" "}
+              <a
+                href="https://github.com/faborsky/brutcider"
+                className="text-warmwhite hover:text-lime transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("githubLink")}
+              </a>
+            </p>
           </div>
         </div>
 

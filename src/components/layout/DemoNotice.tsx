@@ -1,21 +1,23 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useSyncExternalStore } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { useTranslations } from "next-intl";
 
 const DEMO_BAR_HEIGHT = 48;
 
+const emptySubscribe = () => () => {};
+
 export default function DemoNotice() {
-  const [visible, setVisible] = useState(false);
+  const dismissed = useSyncExternalStore(
+    emptySubscribe,
+    () => localStorage.getItem("demo-notice-dismissed"),
+    () => "pending"
+  );
+  const [localDismissed, setLocalDismissed] = useState(false);
   const t = useTranslations("DemoNotice");
 
-  useEffect(() => {
-    const dismissed = localStorage.getItem("demo-notice-dismissed");
-    if (!dismissed) {
-      setVisible(true);
-    }
-  }, []);
+  const visible = dismissed === null && !localDismissed;
 
   useEffect(() => {
     if (visible) {
@@ -31,7 +33,7 @@ export default function DemoNotice() {
 
   function handleDismiss() {
     localStorage.setItem("demo-notice-dismissed", "true");
-    setVisible(false);
+    setLocalDismissed(true);
     window.dispatchEvent(new Event("demo-notice-dismissed"));
   }
 

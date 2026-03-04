@@ -1,25 +1,29 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { trackAgeGate } from "@/lib/analytics";
 
+const emptySubscribe = () => () => {};
+
 export default function AgeGate() {
-  const [verified, setVerified] = useState<boolean | null>(null);
+  const stored = useSyncExternalStore(
+    emptySubscribe,
+    () => localStorage.getItem("brut-age-verified"),
+    () => "pending"
+  );
+  const [localVerified, setLocalVerified] = useState(false);
   const [denied, setDenied] = useState(false);
   const t = useTranslations("AgeGate");
 
-  useEffect(() => {
-    const stored = localStorage.getItem("brut-age-verified");
-    setVerified(stored === "true");
-  }, []);
+  const verified = stored === "true" || localVerified;
 
   function handleYes() {
     trackAgeGate(true);
     localStorage.setItem("brut-age-verified", "true");
-    setVerified(true);
+    setLocalVerified(true);
   }
 
   function handleNo() {
@@ -27,7 +31,7 @@ export default function AgeGate() {
     setDenied(true);
   }
 
-  if (verified === null) return null;
+  if (stored === "pending") return null;
 
   return (
     <AnimatePresence>
