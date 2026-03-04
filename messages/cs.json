@@ -2,7 +2,7 @@
   "Metadata": {
     "title": "BRUT. — Suchý craft cider z Gentu",
     "titleTemplate": "%s | BRUT.",
-    "description": "Nic přidaného. Nic k zakrývání. Suchý craft cider z vlámských jablek. Nula cukru. Plná chuť.",
+    "description": "Nic navíc. Nic k zakrývání. Suchý craft cider z vlámských jablek. Nula cukru. Plná chuť.",
     "keywords": "craft cider, suchý cider, belgický cider, vlámská jablka, cider bez cukru, gentský cider, řemeslný cider, BRUT cider",
     "ogImageAlt": "BRUT. Suchý craft cider — čtyři varianty na ledu"
   },
@@ -18,7 +18,7 @@
   },
   "Footer": {
     "logoAlt": "BRUT. Suchý craft cider z Gentu, Belgie",
-    "description": "Suchý craft cider z Gentu, Belgie. Nic přidaného. Nic k zakrývání.",
+    "description": "Suchý craft cider z Gentu, Belgie. Nic navíc. Nic k zakrývání.",
     "brewedIn": "Vaříme v Gentu.",
     "notForEveryone": "Ne pro každého.",
     "copyright": "© {year} BRUT. Všechna práva vyhrazena.",
@@ -41,7 +41,7 @@
     "dismiss": "Zavřít upozornění"
   },
   "HomePage": {
-    "heroTitle": "Nic přidaného.\nNic k zakrývání.",
+    "heroTitle": "Nic navíc.\nJen BRUT.",
     "heroSubtitle": "Suchý craft cider z Gentu, Belgie.",
     "heroCta": "Objevte naše cidery",
     "heroImageAlt": "BRUT. craft cider — plechovky na ledu",
@@ -60,7 +60,7 @@
   },
   "ProductsPage": {
     "title": "Cidery",
-    "description": "Čtyři suché cidery. Žádný balast. Žádný cukr. Nic přidaného.",
+    "description": "Čtyři suché cidery. Žádný balast. Žádný cukr. Nic navíc.",
     "ogTitle": "Cidery — BRUT.",
     "heading": "Naše cidery",
     "subtitle": "Neděláme limitky. Děláme čtyři věci pořádně.",
@@ -126,7 +126,7 @@
       "copyBlocks": {
         "whatItIs": "Vlámská jablka prokvašená až na kost. Vysoké sycení. Nula zbytkového cukru. Tak chutná cider, když ho přestanete přetvařovat na limonádu.",
         "whyItMatters": "Většina ciderů sype cukr zpátky po kvašení. My ne. Suchý znamená, že cítíte jablko, ne sladidlo. Suchý znamená, že dáte tři a necítíte se jako po obědu. Suchý znamená poctivý.",
-        "howWeMakeIt": "Vylisujeme jablka. Kvasíme, dokud nezbyde ani gram cukru. Sytíme naplno. Plníme za studena. Čtyři ingredience. Jeden princip. Nic přidaného. Nic k zakrývání.",
+        "howWeMakeIt": "Vylisujeme jablka. Kvasíme, dokud nezbyde ani gram cukru. Sytíme naplno. Plníme za studena. Čtyři ingredience. Jeden princip. Nic navíc. Nic k zakrývání.",
         "whoItsFor": "Pro lidi, co pijou suché víno, ne moscato. Espresso, ne frappuccino. Pro ty, kdo dávno vědí, co chtějí."
       }
     },
