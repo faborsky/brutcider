@@ -4,6 +4,8 @@
 
 **Live site:** [brutcider.com](https://www.brutcider.com)
 
+Author: [Jindřich Fáborský](https://www.faborsky.com)
+
 ## About
 
 This is a complete, production-quality marketing website built entirely with vibe coding (AI-assisted development using Claude Code). It serves as the demo project for **Lesson 3: A Complete Website** of the Vibe Coding for Marketers course, where students learn to build multi-page websites with animations, SEO, and multilingual support.
@@ -64,8 +66,10 @@ See [CLAUDE.md](CLAUDE.md) for detailed architecture, conventions, and workflows
 
 This repo is a companion to the [Vibe Coding for Marketers](https://www.vibecodingformarketers.com) course. The `CLAUDE.md` file contains all the project instructions that Claude Code uses to understand the codebase — study it to learn how to write effective AI project instructions for your own sites.
 
----
+## License
 
-Built by [Jindrich Faborsky](https://faborsky.com) with [Claude Code](https://claude.ai/code)
+MIT
 
-License: MIT
+## Author
+
+[Jindřich Fáborský](https://www.faborsky.com), marketer and educator from Prague. I teach marketers to build their own tools with AI. This repo accompanies my course [Vibe Coding for Marketers](https://www.vibecodingformarketers.com).
